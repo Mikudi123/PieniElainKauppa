@@ -1,11 +1,8 @@
-@media screen and (max-width: 768px) {
-    .social-media-container {
-        padding: 0 30px 10px 0 !important;
-    }
-
+@media screen and (max-width: 1300px) {
     .social-media-icon {
-        height: 35px !important;
-        width: 35px !important;
+        height: 25px !important;
+        width: 25px !important;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.75) !important;
     }
 }
 
@@ -76,8 +73,6 @@ em {
     position: relative;
     width: 100%;
     height: 100%;
-
-    overflow: auto;
 }
 
 .faded-text {
@@ -106,9 +101,8 @@ em {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
     height: 25%;
-    max-height: fit-content;
+    min-height: 20%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -152,6 +146,69 @@ em {
     height: 100%;
     display: flex;
     flex-direction: column;
+    overflow: auto;
+}
+
+.cards-container {
+    color: var(--black-basic-color);
+    width: 80% !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+    width: clamp(180px, 25%, 350px);
+    aspect-ratio: 1.2;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+
+.card:hover img {
+    transform: scale(1.0);
+    filter: brightness(30%);
+}
+
+.card-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-basic-color);
+    opacity: 0;
+    width: 90%;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: calc(15px + .7vw);
+}
+
+.card:hover .card-title {
+    opacity: 1;
+}
+
+.card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .view-article {
@@ -204,12 +261,14 @@ em {
     position: relative;
     display: flex;
     flex-direction: row;
-    align-self: flex-end;
-    justify-content: center;
+    align-self: flex-start;
+    justify-content: space-evenly;
     align-items: center;
 
-    padding: 0 30px 10px 0;
-    gap: 10px;
+    width: 16.7%; /* This is exactly the width of the sidebar */
+    min-width: 150px;
+    max-width: 400px;
+    padding-bottom: 10px;
 }
 
 .social-media-icon {
