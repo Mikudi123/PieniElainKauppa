@@ -1,7 +1,9 @@
 const sidebar = document.getElementById("sidebar");
 const contentContainer = document.getElementById("content-container");
 const headerLogo = document.getElementById("header-logo");
+const headerToggleButton = document.getElementById("sidebar-toggle-btn");
 const header = document.getElementById("header");
+const contentBelowHeader = document.getElementById("content-below-header");
 
 // Check if element contains specific classname
 const elementContainsClassname = async (element, className) => {
@@ -24,6 +26,11 @@ const getElementWidth = async (element) => {
     return elementStyling.width;
 };
 
+const getElementHeight = async (element) => {
+    const elementStyling = window.getComputedStyle(element);
+    return elementStyling.height;
+};
+
 const removeElementInlineStyling = async (element) => {
     element.style.cssText = "";
 };
@@ -38,12 +45,14 @@ const removeElementInlineStyling = async (element) => {
 const toggleSidebar = async () => {
     if (sidebar) {
         await setContentContainerMarginLeft();
+        await setContentBelowHeaderContainerMarginTop();
         const sidebarIsShrunk = await elementContainsClassname(sidebar, "sidebar-shrink");
         if (!sidebarIsShrunk) {
             await setElementStaticWidth(sidebar);
         } else {
             await removeElementInlineStyling(sidebar);
         }
+        await toggleElementClass(headerToggleButton, "dark");
         await toggleElementClass(sidebar, "sidebar-shrink");
         
         if (headerLogo) {
@@ -53,6 +62,11 @@ const toggleSidebar = async () => {
             header.classList.toggle("header-extended");
         }
     }
+};
+
+const setContentBelowHeaderContainerMarginTop = async () => {
+    const headerHeight = header.offsetHeight;
+    contentBelowHeader.style.marginTop = sidebar.classList.contains("sidebar-shrink") ? "0px" : `${headerHeight}px`;
 };
 
 const setContentContainerMarginLeft = async () => {

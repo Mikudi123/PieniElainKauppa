@@ -1,7 +1,6 @@
 @media screen and (max-width: 768px) {
     .social-media-container {
-        padding: .5rem !important;
-        gap: .5rem !important;
+        padding: 0 30px 10px 0 !important;
     }
 
     .social-media-icon {
@@ -42,10 +41,10 @@ html {
     --white-basic-color: #fff;
     --green-basic-color: #0b5721;
     --min-width-page: 250px;
+    font-size: clamp(1.0em, 1.0vw, 1.5em);
 }
 
 body {
-    font-size: clamp(1.0em, 1.0vw, 1.5em);
     background-color: var(--white-basic-color);
     font-family: "Roboto Regular";
     color: var(--white-basic-color);
@@ -61,7 +60,6 @@ main {
 
     height: 100vh;
     height: 100svh;
-    height: -webkit-fill-available;
     min-width: var(--min-width-page);
 }
 
@@ -74,11 +72,70 @@ em {
     line-height: .5;
 }
 
-#content-container {
+.view-main-container {
+    position: relative;
     width: 100%;
     height: 100%;
 
     overflow: auto;
+}
+
+.faded-text {
+    color: rgba(0, 0, 0, .6);
+}
+
+.smallest-text {
+    font-size: calc(10px + .1vw) !important;
+}
+
+.small-text {
+    font-size: calc(10px + .3vw) !important;
+}
+
+.medium-text {
+    font-size: calc(10px + .5vw) !important;
+}
+
+.large-text {
+    font-size: calc(10px + .7vw) !important;
+}
+
+.background-img-top {
+    position: relative;
+    background: url("/media/images/green-tree-snake-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25%;
+    max-height: fit-content;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    z-index: -1;
+}
+
+.background-img-top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(10px) brightness(60%);
+    transform: scale(1.2);
+
+    z-index: -1;
+}
+
+.background-img-top .text-content {
+    color: var(--white-basic-color);
+    padding: 0;
+    text-shadow: rgba(0, 0, 0, 1.0) 0 0 5px;
 }
 
 .view-title {
@@ -88,10 +145,23 @@ em {
     text-overflow: ellipsis;
 }
 
+.container-vertical {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.view-article {
+    position: relative;
+}
+
 .text-content {
     width: 70%;
     margin: auto;
-    padding-top: 1rem;
+    padding: 2rem 0 2rem 0;
     text-align: center;
     line-height: 1.5;
     color: var(--black-basic-color);
@@ -100,11 +170,18 @@ em {
     text-overflow: ellipsis;
 }
 
+.list {
+    text-align: left;
+    line-height: 2.0;
+    margin-left: -40px;
+}
+
 #footer {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
+    min-width: var(--min-width-page);
     display: flex;
     flex-direction: column;
 }
@@ -126,13 +203,13 @@ em {
 .social-media-container {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-self: flex-end;
     justify-content: center;
     align-items: center;
 
-    padding: 1.0rem;
-    gap: 1.0rem;
+    padding: 0 30px 10px 0;
+    gap: 10px;
 }
 
 .social-media-icon {
@@ -152,6 +229,30 @@ em {
 #contact-email-span {
     background-color: #0075c8;
 }
+
+#contact-facebook-span {
+    background-color: #039be5;
+}
+
+#contact-facebook-span img {
+    animation: none;
+}
+
+#contact-facebook-span a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120%;
+    aspect-ratio: 1;
+}
+
+/* #contact-email-span img {
+    animation: none;
+} */
 
 #contact-email-span a {
     position: absolute;

@@ -12,11 +12,7 @@
     cursor: pointer;
 }
 
-.list-button:hover {
-    background-color: rgba(216, 255, 224);
-}
-
-.list-button img {
+.list-button svg {
     height: 35px;
 }
 
@@ -113,10 +109,11 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
     clip-path: inset(0px 0px -10px 0px);
     transition: all .3s ease !important;
-    background-color: var(--white-basic-color);
+    background-color: var(--white-basic-color) !important;
 }
 
 #header {
+    background-color: transparent;
     height: 7%;
     position: sticky;
     top: 0;
@@ -129,6 +126,8 @@
 
     transition-delay: .3s !important;
     transition: none;
+
+    z-index: 999;
 }
 
 .header-logo-visible {
@@ -159,9 +158,22 @@
     margin-left: auto;
     height: 90%;
     aspect-ratio: 1;
+    color: var(--white-basic-color);
 }
 
-#sidebar-toggle-btn img {
+#sidebar-toggle-btn.dark svg {
+    color: var(--black-basic-color);
+}
+
+#sidebar-toggle-btn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#sidebar-toggle-btn.dark:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#sidebar-toggle-btn svg {
     position: absolute;
     top: 50%;
     left: 50%;
