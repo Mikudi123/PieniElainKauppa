@@ -79,7 +79,7 @@ const setContentContainerMarginLeft = async () => {
 };
 
 // Eventlisteners
-contentContainer.addEventListener("scroll", function () {
+contentContainer.addEventListener("scroll", () => {
     if (sidebar.classList.contains("sidebar-shrink")) {
         return;
     }
@@ -95,8 +95,11 @@ contentContainer.addEventListener("scroll", function () {
     passive: true
 });
 
-
-
+// Add event listener for window resize
+window.addEventListener("resize", () => {
+    const headerHeight = header.offsetHeight;
+    contentBelowHeader.style.marginTop = sidebar.classList.contains("sidebar-shrink") ? "0px" : `-${headerHeight}px`;
+});
 
 // Initial load
 const initialLoad = async () => {

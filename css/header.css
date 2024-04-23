@@ -57,7 +57,7 @@
 
 .nav {
     padding: 0 !important;
-    flex-basis: 85%;
+    flex-basis: 100%;
 }
 
 #sidebar-nav {
@@ -183,4 +183,86 @@
     left: 50%;
     transform: translate(-50%, -50%);
     height: 50%;
+}
+
+.social-media-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.social-media-icon {
+    position: relative;
+    padding: 7px;
+    height: 35px;
+    width: 35px;
+
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+}
+
+#contact-whatsapp-span {
+    background-color: #00d25c;
+}
+
+#contact-email-span {
+    background-color: #0075c8;
+}
+
+#contact-facebook-span {
+    background-color: #039be5;
+}
+
+#contact-facebook-span img {
+    animation: none;
+}
+
+#contact-facebook-span a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120%;
+    aspect-ratio: 1;
+}
+
+/* #contact-email-span img {
+    animation: none;
+} */
+
+#contact-email-span a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.social-media-icon img {
+    height: 100%;
+    width: 100%;
+}
+
+#contact-email-span a {
+    height: 65% !important;
+}
+
+.social-media-icon:hover img {
+    animation: rotate-wiggle .4s ease;
+    animation-delay: .2s;
+}
+
+.social-media-icon:hover {
+    transform: scale(1.1);
 }
