@@ -203,6 +203,7 @@
 
     border-radius: 100%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 #contact-whatsapp-span {

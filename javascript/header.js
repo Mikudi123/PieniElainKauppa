@@ -95,7 +95,7 @@ contentContainer.addEventListener("scroll", () => {
     passive: true
 });
 
-// Add event listener for window resize
+// Event listener for window resize
 window.addEventListener("resize", () => {
     const headerHeight = header.offsetHeight;
     contentBelowHeader.style.marginTop = sidebar.classList.contains("sidebar-shrink") ? "0px" : `-${headerHeight}px`;

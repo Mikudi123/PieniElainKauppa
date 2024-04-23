@@ -15,127 +15,117 @@
 </head>
 
 <body>
-    <main>
-        <div id="sidebar">
-            <div id="sidebar-container">
-                <a class="logo sidebar-item" href="index.html">
-                    <img alt="Logo" src="../media/images/pieni_elainkauppa.webp">
-                </a>
-                <div class="sidebar-item nav">
-                    <nav id="sidebar-nav">
-                        <div class="sidebar-link-div">
-                            <div class="sidebar-link-hover-div"></div>
-                            <a href="kalat.html">
-                                <strong>Kalat</strong>
+    <main class="flex-vertical main-container">
+        <div id="content-besides-footer" class="flex-horizontal">
+            <div id="sidebar" class="scroll-element">
+                <div id="sidebar-container">
+                    <a class="logo sidebar-item" href="index.html">
+                        <img alt="Logo" src="../media/images/pieni_elainkauppa.webp">
+                    </a>
+                    <div class="sidebar-item nav">
+                        <nav id="sidebar-nav">
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="index.html">
+                                    <strong>Etusivu</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="kalat.html">
+                                    <strong>Kalat</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div" active>
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="pienelaimet.html">
+                                    <strong>Pieneläimet</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="matelijatjalinnut.html">
+                                    <strong>Matelijat ja linnut</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="koirat.html">
+                                    <strong>Koirille</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="kissat.html">
+                                    <strong>Kissoille</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="palvelut.html">
+                                    <strong>Hoitoa ja palveluja</strong>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="social-media-container sidebar-item">
+                        <span id="contact-email-span" class="social-media-icon" title="Lähetä viesti sähköpostitse">
+                            <a aria-label="Send email" href="mailto: pienielainkauppa@pienielainkauppa.fi">
+                                <img alt="Email" src="../media/icons/envelope.svg">
                             </a>
-                        </div>
-                        <div class="sidebar-link-div">
-                            <div class="sidebar-link-hover-div"></div>
-                            <a href="pienelaimet.html">
-                                <strong>Pieneläimet</strong>
+                        </span>
+                        <span id="contact-facebook-span" class="social-media-icon" title="Facebook">
+                            <a aria-label="Check our facebook"
+                                href="https://www.facebook.com/Pienielainkauppa/?ref=embed_page" target="_blank">
+                                <img alt="Facebook" src="../media/icons/facebook.svg">
                             </a>
-                        </div>
-                        <div class="sidebar-link-div">
-                            <div class="sidebar-link-hover-div"></div>
-                            <a href="matelijatjalinnut.html">
-                                <strong>Matelijat ja linnut</strong>
+                        </span>
+                        <span id="contact-whatsapp-span" class="social-media-icon"
+                            title="Lähetä viesti WhatsAppin kautta">
+                            <a aria-label="Send email" href="https://wa.me/358443592222" target="_blank">
+                                <img alt="Send email" src="../media/icons/whatsapp.svg">
                             </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="content-container">
+                <header id="header">
+                    <a id="header-logo" class="logo-div" href="index.html">
+                        <img alt="Logo" src="../media/images/pieni_elainkauppa.webp">
+                    </a>
+                    <button id="sidebar-toggle-btn" class="list-button" onclick="toggleSidebar()">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button>
+                </header>
+                <div id="content-below-header" class="container-vertical scroll-element pos-relative">
+                    <div class="background-img-top">
+                        <div class="text-content">
+                            <h1 class="view-title">Pieneläimet</h1>
                         </div>
-                        <div class="sidebar-link-div">
-                            <div class="sidebar-link-hover-div"></div>
-                            <a href="koirat.html">
-                                <strong>Koirille</strong>
-                            </a>
+                    </div>
+                    <article id="last-element" class="view-article">
+                        <div class="text-content">
+                            <p class="medium-text">Pieneläimet sivu</p>
                         </div>
-                        <div class="sidebar-link-div">
-                            <div class="sidebar-link-hover-div"></div>
-                            <a href="kissat.html">
-                                <strong>Kissoille</strong>
-                            </a>
-                        </div>
-                        <div class="sidebar-link-div">
-                            <div class="sidebar-link-hover-div"></div>
-                            <a href="palvelut.html">
-                                <strong>Hoitoa ja palveluja</strong>
-                            </a>
-                        </div>
-                    </nav>
+                    </article>
                 </div>
             </div>
         </div>
-        <div id="content-container" class="view-main-container">
-            <header id="header">
-                <a id="header-logo" class="logo-div" href="index.html">
-                    <img alt="Logo" src="../media/images/pieni_elainkauppa.webp">
-                </a>
-                <button id="sidebar-toggle-btn" class="list-button" onclick="toggleSidebar()">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                    </svg>
-                </button>
-            </header>
-            <div id="content-below-header" class="container-vertical">
-                <div class="background-img-top">
-                    <div class="text-content">
-                        <h1 class="view-title">Pieneläimet</h1>
-                        <p class="medium-text"><strong>Oma lemmikki Pienestä Eläinkaupasta</strong></p>
-                    </div>
-                </div>
-                <article class="view-article">
-                    <div class="text-content">
-                        <p class="medium-text">Hiiri, hamsteri, pupujussi tai ehkä eksoottisempi <a
-                                href="/pages/matelijatjalinnut.html"
-                                style="color: blue; text-decoration: underline;">lemmikkilisko</a>.<br />Myymälästämme
-                            voit
-                            löytää
-                            juuri
-                            sinulle sopivan pienen lemmikin.</p>
-                    </div>
-                    <div class="text-content" style="overflow: visible !important;">
-                        <ul class="list small-text">
-                            <strong>Tällä hetkellä valmiina muuttamaan uuteen kotiin:</strong>
-                            <li>Kesyhiiriä</li>
-                            <li>Syyrianhamstereita</li>
-                            <li>Kääpiöhamstereita (talvikko)</li>
-                            <li>Risteytyskani-pojat</li>
-                            <li>Gerbiilejä</li>
-                            Tämä lista elää päivittäin. Voit tarvittaessa tarkastaa ajantasaisen tilanteen
-                            myymälästä.<br /><em class="faded-text smallest-text">(Päivitetty 18.4.2024)</em>
-                        </ul>
-                    </div>
-                </article>
+        <div id="footer">
+            <div id="contact-info" class="small-text">
+                <span>Pieni Eläinkauppa</span>&nbsp|&nbsp
+                <span>Pallokatu 3, 70620 Kuopio</span>&nbsp|&nbsp
+                <span>Puh. 044 359 2222</span>&nbsp|&nbsp
+                <span>pienielainkauppa(at)pienielainkauppa.fi</span>&nbsp|&nbsp
+                <span>Y-2517859-3</span>
             </div>
         </div>
     </main>
-    <div id="footer">
-        <div class="social-media-container">
-            <span id="contact-email-span" class="social-media-icon" title="Lähetä viesti sähköpostitse">
-                <a aria-label="Send email" href="mailto: pienielainkauppa@pienielainkauppa.fi">
-                    <img alt="Email" src="../media/icons/envelope.svg">
-                </a>
-            </span>
-            <span id="contact-facebook-span" class="social-media-icon" title="Facebook">
-                <a aria-label="Check our facebook" href="https://www.facebook.com/Pienielainkauppa/?ref=embed_page"
-                    target="_blank">
-                    <img alt="Facebook" src="../media/icons/facebook.svg">
-                </a>
-            </span>
-            <span id="contact-whatsapp-span" class="social-media-icon" title="Lähetä viesti WhatsAppin kautta">
-                <a aria-label="Send email" href="https://wa.me/358443592222" target="_blank">
-                    <img alt="Send email" src="../media/icons/whatsapp.svg">
-                </a>
-            </span>
-        </div>
-
-        <div id="contact-info" class="small-text">
-            <span>Pieni Eläinkauppa</span>&nbsp|&nbsp
-            <span>Pallokatu 3, 70620 Kuopio</span>&nbsp|&nbsp
-            <span>Puh. 044 359 2222</span>&nbsp|&nbsp
-            <span>pienielainkauppa(at)pienielainkauppa.fi</span>&nbsp|&nbsp
-            <span>Y-2517859-3</span>
-        </div>
-    </div>
 </body>
 
 <script src="../javascript/index.js"></script>

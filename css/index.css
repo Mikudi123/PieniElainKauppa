@@ -220,14 +220,13 @@ em {
     position: absolute;
     /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%; */
+    transform: translate(-50%, -50%); */
+    width: 85%;
     bottom: 0;
-    left: 0;
     font-weight: bold;
     overflow: hidden;
     line-height: 1.2;
-    margin: 0 10px 10px 20px;
+    margin: 0 0 10px 20px;
     font-size: calc(15px + .7vw);
     transition: all .2s ease;
 }
