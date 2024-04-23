@@ -4,6 +4,8 @@ const headerLogo = document.getElementById("header-logo");
 const headerToggleButton = document.getElementById("sidebar-toggle-btn");
 const header = document.getElementById("header");
 const contentBelowHeader = document.getElementById("content-below-header");
+const pastTopImageTrigger = document.getElementById("past-top-image-trigger");
+const viewLastElement = document.getElementById("last-element");
 
 // Check if element contains specific classname
 const elementContainsClassname = async (element, className) => {
@@ -35,17 +37,18 @@ const removeElementInlineStyling = async (element) => {
     element.style.cssText = "";
 };
 
-// Resizing
-// var onresize = function () {
-//     let width = window.innerWidth;
-//     let height = window.innerHeight;
-// };
+// Return true if given element is shown in viewport (minus the height of the element from the top)
+const ElementIsInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    return rect.bottom <= 0 || rect.top >= (window.innerHeight || document.documentElement.clientHeight)
+}
 
 // User interactions
 const toggleSidebar = async () => {
     if (sidebar) {
         await setContentContainerMarginLeft();
-        await setContentBelowHeaderContainerMarginTop();
+        await setMarginsWhenHeaderVisible();
+
         const sidebarIsShrunk = await elementContainsClassname(sidebar, "sidebar-shrink");
         if (!sidebarIsShrunk) {
             await setElementStaticWidth(sidebar);
@@ -54,7 +57,7 @@ const toggleSidebar = async () => {
         }
         await toggleElementClass(headerToggleButton, "dark");
         await toggleElementClass(sidebar, "sidebar-shrink");
-        
+
         if (headerLogo) {
             headerLogo.classList.toggle("header-logo-visible");
         }
@@ -64,9 +67,10 @@ const toggleSidebar = async () => {
     }
 };
 
-const setContentBelowHeaderContainerMarginTop = async () => {
+const setMarginsWhenHeaderVisible = async () => {
     const headerHeight = header.offsetHeight;
-    contentBelowHeader.style.marginTop = sidebar.classList.contains("sidebar-shrink") ? "0px" : `${headerHeight}px`;
+    contentBelowHeader.style.marginTop = !sidebar.classList.contains("sidebar-shrink") ? "0px" : `-${headerHeight}px`;
+    viewLastElement.style.paddingBottom = sidebar.classList.contains("sidebar-shrink") ? "0px" : `${headerHeight}px`;
 };
 
 const setContentContainerMarginLeft = async () => {
@@ -75,4 +79,28 @@ const setContentContainerMarginLeft = async () => {
 };
 
 // Eventlisteners
-// window.addEventListener("resize", onresize);
+contentContainer.addEventListener("scroll", function () {
+    if (sidebar.classList.contains("sidebar-shrink")) {
+        return;
+    }
+
+    // The top background image is not visible anymore => turn the hamburger button dark
+    const topImageNotVisible = ElementIsInViewport(pastTopImageTrigger);
+    if (topImageNotVisible) {
+        headerToggleButton.classList.add("dark");
+    } else {
+        headerToggleButton.classList.remove("dark");
+    }
+}, {
+    passive: true
+});
+
+
+
+
+// Initial load
+const initialLoad = async () => {
+    const headerHeight = header.offsetHeight;
+    contentBelowHeader.style.marginTop = `-${headerHeight}px`;
+};
+initialLoad();
