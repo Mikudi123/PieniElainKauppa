@@ -101,7 +101,7 @@ em {
 
 .background-img-top {
     position: relative;
-    background: url("/media/images/green-tree-snake-bg.webp");
+    background: url("../media/images/green-tree-snake-bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
