@@ -8,32 +8,32 @@ const pastTopImageTrigger = document.getElementById("past-top-image-trigger");
 const viewLastElement = document.getElementById("last-element");
 
 // Check if element contains specific classname
-const elementContainsClassname = async (element, className) => {
+const elementContainsClassname = (element, className) => {
     return element.classList.contains(className);
 };
 
-const toggleElementClass = async (element, className) => {
+const toggleElementClass = (element, className) => {
     element.classList.toggle(className);
     return true;
 };
 
-const setElementStaticWidth = async (element) => {
+const setElementStaticWidth = (element) => {
     const elementStyles = window.getComputedStyle(element);
     const elementCurrentWidth = elementStyles.width;
     element.style.width = elementCurrentWidth;
 };
 
-const getElementWidth = async (element) => {
+const getElementWidth = (element) => {
     const elementStyling = window.getComputedStyle(element);
     return elementStyling.width;
 };
 
-const getElementHeight = async (element) => {
+const getElementHeight = (element) => {
     const elementStyling = window.getComputedStyle(element);
     return elementStyling.height;
 };
 
-const removeElementInlineStyling = async (element) => {
+const removeElementInlineStyling = (element) => {
     element.style.cssText = "";
 };
 
@@ -44,19 +44,19 @@ const ElementIsInViewport = (element) => {
 }
 
 // User interactions
-const toggleSidebar = async () => {
+const toggleSidebar = () => {
     if (sidebar) {
-        await setContentContainerMarginLeft();
-        await setMarginsWhenHeaderVisible();
+        setContentContainerMarginLeft();
+        setMarginsWhenHeaderVisible();
 
-        const sidebarIsShrunk = await elementContainsClassname(sidebar, "sidebar-shrink");
+        const sidebarIsShrunk = elementContainsClassname(sidebar, "sidebar-shrink");
         if (!sidebarIsShrunk) {
-            await setElementStaticWidth(sidebar);
+            setElementStaticWidth(sidebar);
         } else {
-            await removeElementInlineStyling(sidebar);
+            removeElementInlineStyling(sidebar);
         }
-        await toggleElementClass(headerToggleButton, "dark");
-        await toggleElementClass(sidebar, "sidebar-shrink");
+        toggleElementClass(headerToggleButton, "dark");
+        toggleElementClass(sidebar, "sidebar-shrink");
 
         if (headerLogo) {
             headerLogo.classList.toggle("header-logo-visible");
@@ -67,14 +67,14 @@ const toggleSidebar = async () => {
     }
 };
 
-const setMarginsWhenHeaderVisible = async () => {
+const setMarginsWhenHeaderVisible = () => {
     const headerHeight = header.offsetHeight;
     contentBelowHeader.style.marginTop = !sidebar.classList.contains("sidebar-shrink") ? "0px" : `-${headerHeight}px`;
     viewLastElement.style.paddingBottom = sidebar.classList.contains("sidebar-shrink") ? "0px" : `${headerHeight}px`;
 };
 
-const setContentContainerMarginLeft = async () => {
-    const shrunkSidebarWidth = await getElementWidth(sidebar);
+const setContentContainerMarginLeft = () => {
+    const shrunkSidebarWidth = getElementWidth(sidebar);
     contentContainer.style.marginLeft = sidebar.classList.contains("sidebar-shrink") ? "0" : `-${shrunkSidebarWidth}`;
 };
 
@@ -102,7 +102,7 @@ window.addEventListener("resize", () => {
 });
 
 // Initial load
-const initialLoad = async () => {
+const initialLoad = () => {
     const headerHeight = header.offsetHeight;
     contentBelowHeader.style.marginTop = `-${headerHeight}px`;
 };
