@@ -1,11 +1,3 @@
-@media screen and (max-width: 1300px) {
-    .social-media-icon {
-        height: 25px !important;
-        width: 25px !important;
-        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.75) !important;
-    }
-}
-
 @keyframes rotate-wiggle {
     0% {
         transform: rotate(0deg);
@@ -84,25 +76,24 @@ em {
 }
 
 .smallest-text {
-    font-size: calc(10px + .1vw) !important;
+    font-size: calc(5px + .3vw + .3vh) !important;
 }
 
 .small-text {
-    font-size: calc(10px + .3vw) !important;
+    font-size: calc(8px + .3vw + .3vh) !important;
 }
 
 .medium-text {
-    font-size: calc(10px + .5vw) !important;
+    font-size: calc(11px + .3vw + .3vh) !important;
 }
 
 .large-text {
-    font-size: calc(10px + .7vw) !important;
+    font-size: calc(14px + .3vw + .3vh) !important;
 }
 
-.background-img-top{
+.background-img-top {
     position: relative;
-    min-height: 20%;
-    height: 25%;
+    height: 15vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -130,7 +121,7 @@ em {
 }
 
 .view-title {
-    font-size: calc(25px + 1.3vw);
+    font-size: calc(2vw + 2vh);
 
     overflow: hidden;
     text-overflow: ellipsis;
@@ -173,7 +164,7 @@ em {
     position: relative;
     background-color: transparent;
     border-radius: 20px;
-    width: clamp(180px, 25%, 350px);
+    width: clamp(150px, 20%, 350px);
     aspect-ratio: 1.2;
     cursor: pointer;
     overflow: hidden;
@@ -221,7 +212,7 @@ em {
     overflow: hidden;
     line-height: 1.2;
     margin: 0 0 10px 20px;
-    font-size: calc(15px + .7vw);
+    font-size: calc(10px + .7vw);
     transition: all .2s ease;
 }
 
@@ -275,6 +266,7 @@ em {
 
 #content-below-header {
     height: 100%;
+    z-index: 1;
 }
 
 #footer {
