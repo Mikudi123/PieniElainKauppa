@@ -1,4 +1,5 @@
 #table-div {
+  color: black;
   display: flex;
   flex-direction: column;
   height: 50%;
@@ -9,45 +10,78 @@
   margin-bottom: 20px;
 }
 
-#table-content {
-  height: 60vh;
-  overflow-y: scroll;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.75) !important;
+.table-attachments {
+  position: relative;
 }
 
-#table-info {
-  margin-bottom: 3px;
+.table-attachments > * {
+  width: 100%;
+}
+
+.table-attachments input {
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.table-attachments #table-info {
+  margin: 0 0 0 15px;
   align-self: flex-start;
   color: var(--black-basic-color);
 }
 
-table {
-  width: 100%;
-  color: black;
-  border-collapse: collapse;
-  table-layout: fixed;
+.title-and-table {
+  overflow: hidden;
 }
 
-td,
-th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+#table-content {
+  max-height: 45vh;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.table-header {
+  color: var(--white-basic-color);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  border-radius: 15px 15px 0 0;
+  background-color: var(--green-basic-color);
+  z-index: 1;
+}
+
+.table-header > * {
   overflow: hidden;
   text-overflow: ellipsis;
-  /* font-size: calc(0.8rem + 0.5vw); */
+  width: 50%;
+  padding: 15px;
 }
 
-thead {
-  position: sticky;
-  top: 0px;
+.table-header strong:last-child {
+  margin-right: 10px; /* Width of the scrollbar, 8px in every other browser except 10px in Safari */
 }
 
-th {
-  background-color: var(--white-basic-color);
+.fish-table {
+  position: relative;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  z-index: 0;
+}
+
+.fish-table td {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 tr:nth-child(even) {
-  background-color: var(--green-basic-color);
-  color: var(--white-basic-color);
+  background-color: #f4f4f4;
+  color: var(--green-basic-color);
 }
