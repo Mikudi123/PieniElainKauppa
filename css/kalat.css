@@ -2,6 +2,7 @@
   color: black;
   display: flex;
   flex-direction: column;
+  gap: 5px;
   height: 50%;
   width: clamp(100px, 90%, 900px);
   margin: auto;
@@ -21,11 +22,14 @@
 .table-attachments input {
   outline: none;
   text-decoration: none;
-  margin-bottom: 10px;
+  width: 60%;
+  margin: 0 10px 0 0;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
 }
 
 .table-attachments #table-info {
-  margin: 0 0 0 15px;
+  margin: 20px 0 0 15px;
   align-self: flex-start;
   color: var(--black-basic-color);
 }

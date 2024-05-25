@@ -103,7 +103,11 @@ window.addEventListener("resize", () => {
 
 // Initial load
 const initialLoad = () => {
-    const headerHeight = header.offsetHeight;
-    contentBelowHeader.style.marginTop = `-${headerHeight}px`;
+    if (window.innerWidth <= 800) {
+        toggleSidebar()
+    } else {
+        const headerHeight = header.offsetHeight;
+        contentBelowHeader.style.marginTop = `-${headerHeight}px`;
+    }
 };
 initialLoad();
