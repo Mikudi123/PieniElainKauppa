@@ -1,0 +1,25 @@
+{
+    "lastUpdated": "5.1.2024",
+    "birdList": [
+        {
+            "name": "Neitokakadu",
+            "scientificName": "Nymphicus hollandicus"
+        },
+        {
+            "name": "Undulaatti",
+            "scientificName": "Melopsittacus undulatus"
+        },
+        {
+            "name": "Kanarialintu",
+            "scientificName": "Serinus canaria"
+        },
+        {
+            "name": "Kaijasia",
+            "scientificName": "Psittaculidae"
+        },
+        {
+            "name": "Peippoja",
+            "scientificName": "Fringillidae"
+        }
+    ]
+}

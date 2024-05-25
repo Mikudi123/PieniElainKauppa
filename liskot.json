@@ -1,0 +1,189 @@
+{
+    "lastUpdated": "5.1.2024",
+    "lizardList": [
+        {
+            "name": "Berberiskinkki",
+            "scientificName": "Eumeces schneideri"
+        },
+        {
+            "name": "Harjasgekko",
+            "scientificName": "Correlophus ciliatus"
+        },
+        {
+            "name": "Hiekkaskinkki",
+            "scientificName": "Scincus scincus"
+        },
+        {
+            "name": "Kääpiöparta-agama",
+            "scientificName": "Pogona henrylawsoni"
+        },
+        {
+            "name": "Karolinananolislisko",
+            "scientificName": "Anolis carolinensis"
+        },
+        {
+            "name": "Kauluslisko",
+            "scientificName": "Chlamydosaurus kingii"
+        },
+        {
+            "name": "Kuhlinliitogekko",
+            "scientificName": "Ptychozoon kuhli"
+        },
+        {
+            "name": "Kultagekko",
+            "scientificName": "Gecko ulikovskii"
+        },
+        {
+            "name": "Kyläagama",
+            "scientificName": "Agama agama"
+        },
+        {
+            "name": "Leopardigekko",
+            "scientificName": "Eublepharis macularis"
+        },
+        {
+            "name": "Parta-agama",
+            "scientificName": "Pogona vitticeps"
+        },
+        {
+            "name": "Surugekko",
+            "scientificName": "Lepidodactylus lugubris"
+        },
+        {
+            "name": "Tuliskinkki",
+            "scientificName": "Riopa fernandi"
+        },
+        {
+            "name": "Viherbasiliski",
+            "scientificName": "Basiliscus plumifrons"
+        },
+        {
+            "name": "Puerto Rican Crested Anole",
+            "scientificName": "Anolis cristatellus"
+        },
+        {
+            "name": "Anderson's Short-fingered Gecko",
+            "scientificName": "Stenodactylus petrii"
+        },
+        {
+            "name": "Asian Grass Lizard",
+            "scientificName": "Takydromus sexlineatus"
+        },
+        {
+            "name": "Australian Barking Gecko",
+            "scientificName": "Nephrurus milii"
+        },
+        {
+            "name": "Blackbelly Racerunner",
+            "scientificName": "Aspidoscelis deppii"
+        },
+        {
+            "name": "Bosk's Fringe-fingered Lizard",
+            "scientificName": "Acanthodactylus boskianus"
+        },
+        {
+            "name": "Central American Banded Gecko",
+            "scientificName": "Coleonyx mitratus"
+        },
+        {
+            "name": "Chameleon Forest Dragon",
+            "scientificName": "Gonocephalus chamaeleontinus"
+        },
+        {
+            "name": "Elegant Gecko",
+            "scientificName": "Stenodactylus stenodactylus"
+        },
+        {
+            "name": "Giant Bluetongue Skink",
+            "scientificName": "Tiliqua gigas"
+        },
+        {
+            "name": "Green Keel-bellied Lizard",
+            "scientificName": "Gastropholis prasina"
+        },
+        {
+            "name": "Lined Gecko",
+            "scientificName": "Gecko vittatus"
+        },
+        {
+            "name": "Many-lined Sun Skink",
+            "scientificName": "Mabuya multifasciata"
+        },
+        {
+            "name": "New Caledonia Bumpy Gecko",
+            "scientificName": "Rhacodactylus auriculatus"
+        },
+        {
+            "name": "Ngo Van Tri’s Lady Butterfly Lizard",
+            "scientificName": "Leiolepis ngovantrii"
+        },
+        {
+            "name": "Northern Curly-tailed Lizard",
+            "scientificName": "Leiocephalus carinatus"
+        },
+        {
+            "name": "Ocelot Gecko",
+            "scientificName": "Paroedura picta"
+        },
+        {
+            "name": "Olive Dasia",
+            "scientificName": "Dasia olivacea"
+        },
+        {
+            "name": "Oriental Garden Lizard",
+            "scientificName": "Calotes versicolor"
+        },
+        {
+            "name": "Peters' Banded Skink",
+            "scientificName": "Scincopus fasciatus"
+        },
+        {
+            "name": "Ragazzi’s Fan-footed Gecko",
+            "scientificName": "Ptyodactylus ragazzi"
+        },
+        {
+            "name": "Rainbow Mabuya",
+            "scientificName": "Mabuya quinquetaeniata"
+        },
+        {
+            "name": "Rosebelly Lizard",
+            "scientificName": "Sceloporus variabilis"
+        },
+        {
+            "name": "Saban Anolis",
+            "scientificName": "Anolis sabanus"
+        },
+        {
+            "name": "Savigny's Agama",
+            "scientificName": "Trapelus savignii"
+        },
+        {
+            "name": "Sinai Dwarf Gecko",
+            "scientificName": "Tropiocolotes nattereri"
+        },
+        {
+            "name": "Sinai Fan-fingered Gecko",
+            "scientificName": "Ptyodactylus guttatus"
+        },
+        {
+            "name": "St. Martin Anolis",
+            "scientificName": "Anolis pogus"
+        },
+        {
+            "name": "Steudner's Dwarf Gecko",
+            "scientificName": "Tropiocolotes steudneri"
+        },
+        {
+            "name": "Western Bearded Dragon",
+            "scientificName": "Pogona minor"
+        },
+        {
+            "name": "Western Ground Gecko",
+            "scientificName": "Cyrtopodion scabrum"
+        },
+        {
+            "name": "White-spotted Wall Gecko",
+            "scientificName": "Tarentola annularis"
+        }
+    ]
+}
