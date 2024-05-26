@@ -1,6 +1,6 @@
-// Fetch the animal names from pienelaimet.json
+// Fetch the animal names from kotivalmiit_pienelaimet.json
 const fetchSmallAnimals = async () => {
-    await fetch("../pienelaimet.json")
+    await fetch("../animal_lists/kotivalmiit_pienelaimet.json")
         .then(response => response.json())
         .then(data => {
             document.getElementById("table-last-updated").textContent = `Lista päivitetty ${data.lastUpdated}`;
@@ -10,8 +10,11 @@ const fetchSmallAnimals = async () => {
             data.animalList.forEach(animal => {
                 const row = document.createElement("tr");
                 const nameCell = document.createElement("td");
-                nameCell.textContent = animal.name;
+                nameCell.innerHTML = animal.name ? animal.name : "<em>Ei nimeä...</em>";
+                const descriptionCell = document.createElement("td");
+                descriptionCell.innerHTML = animal.description ? animal.description : "<em>Ei kuvausta</em>";
                 row.appendChild(nameCell);
+                row.appendChild(descriptionCell);
                 tableBody.appendChild(row);
             });
         })

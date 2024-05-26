@@ -1,0 +1,230 @@
+{
+    "lastUpdated": "5.1.2024",
+    "arthropodList": [
+        {
+            "name": "Karibian erakkorapu",
+            "scientificName": "Coenobita clypeatus",
+            "description": ""
+        },
+        {
+            "name": "Gecarcinus quadratus",
+            "scientificName": "Red Land Crab",
+            "description": ""
+        },
+        {
+            "name": "Euscorplus italicus",
+            "scientificName": "Euscorplus italicus",
+            "description": ""
+        },
+        {
+            "name": "Euscorplus tergestinus",
+            "scientificName": "Euscorplus tergestinus",
+            "description": ""
+        },
+        {
+            "name": "Asian Blue Forest Scorpion",
+            "scientificName": "Heterometrus cyaneus",
+            "description": ""
+        },
+        {
+            "name": "Aasilainen Metsäskorpioni (petersii)",
+            "scientificName": "Heterometrus petersii",
+            "description": ""
+        },
+        {
+            "name": "Malesian metsäskorpioni",
+            "scientificName": "Heterometrus spiniferus",
+            "description": ""
+        },
+        {
+            "name": "Aasian metsäskorpioni",
+            "scientificName": "Hetrometrus silenus",
+            "description": ""
+        },
+        {
+            "name": "Scorpio maurus",
+            "scientificName": "Scorpio maurus",
+            "description": ""
+        },
+        {
+            "name": "Brasilian valkopolvi",
+            "scientificName": "Acanthoscurria geniculata",
+            "description": ""
+        },
+        {
+            "name": "Seepratarantula",
+            "scientificName": "Aphonopelma seemanni",
+            "description": ""
+        },
+        {
+            "name": "pinktoe tarantula",
+            "scientificName": "Avicularia aviculari",
+            "description": ""
+        },
+        {
+            "name": "Puerto Rican pink toe",
+            "scientificName": "Avicularia laeta",
+            "description": ""
+        },
+        {
+            "name": "Avicularia metalica",
+            "scientificName": "Avicularia metalica",
+            "description": ""
+        },
+        {
+            "name": "Antilles pinktoe",
+            "scientificName": "Avicularia versicolor",
+            "description": ""
+        },
+        {
+            "name": "Vietnam blue",
+            "scientificName": "Chilobrachys dyscolus",
+            "description": ""
+        },
+        {
+            "name": "Cyriopagopus paganus",
+            "scientificName": "Cyriopagopus paganus",
+            "description": ""
+        },
+        {
+            "name": "Guatemalan Tiger Rump",
+            "scientificName": "Davus pentaloris",
+            "description": ""
+        },
+        {
+            "name": "Cobalt blue tarantula",
+            "scientificName": "Haplopelma lividum",
+            "description": ""
+        },
+        {
+            "name": "Adanson's House Jumper / hyppyhämähäkki",
+            "scientificName": "Hasarius adansoni",
+            "description": ""
+        },
+        {
+            "name": "Cameroon Red Baboon Spider",
+            "scientificName": "Hysterocrates gigas",
+            "description": ""
+        },
+        {
+            "name": "Bahia scarlet",
+            "scientificName": "Lasiodora klugi",
+            "description": ""
+        },
+        {
+            "name": "Brasiliantarantula",
+            "scientificName": "Lasiodora parahybana",
+            "description": ""
+        },
+        {
+            "name": "Bahia Grey Bird Eating Tarantula",
+            "scientificName": "Lasiodora striatipes",
+            "description": ""
+        },
+        {
+            "name": "Colombian Giant Red Leg",
+            "scientificName": "Megaphobema robustum",
+            "description": ""
+        },
+        {
+            "name": "Socotra island blue baboon",
+            "scientificName": "Monocentropus balfouri",
+            "description": ""
+        },
+        {
+            "name": "Trinidad Olive",
+            "scientificName": "Neothele incei",
+            "description": ""
+        },
+        {
+            "name": "Brazilian red and white",
+            "scientificName": "Nhandu chromatus sus",
+            "description": ""
+        },
+        {
+            "name": "Brazilian Black & White",
+            "scientificName": "Nhandu coloratovillosus",
+            "description": ""
+        },
+        {
+            "name": "Bolivian blueleg",
+            "scientificName": "Pamphobeteus antinous",
+            "description": ""
+        },
+        {
+            "name": "Camel Spider sp",
+            "scientificName": "Paragaleodes sp",
+            "description": ""
+        },
+        {
+            "name": "Regal jumper / hyppyhämähäkki",
+            "scientificName": "Phidippus regius",
+            "description": ""
+        },
+        {
+            "name": "Cuban Bronze Tarantula",
+            "scientificName": "Phormictopus auratus",
+            "description": ""
+        },
+        {
+            "name": "Trinidad chevron tarantula",
+            "scientificName": "Psalmopoesus cambridgei",
+            "description": ""
+        },
+        {
+            "name": "Venezuelan Suntiger",
+            "scientificName": "Psalmopoeus irminia",
+            "description": ""
+        },
+        {
+            "name": "Coasta Rican Orange Mouth",
+            "scientificName": "Psalmopoeus reduncus",
+            "description": ""
+        },
+        {
+            "name": "Nicaraguan Fossorial",
+            "scientificName": "Sandinista lanceolatum",
+            "description": ""
+        },
+        {
+            "name": "Java Yellow Kneed Tarantula",
+            "scientificName": "Selenocosmia javanensis",
+            "description": ""
+        },
+        {
+            "name": "Whip Spider",
+            "scientificName": "Stygophrynus mexicanus",
+            "description": ""
+        },
+        {
+            "name": "Goliath pinkfoot",
+            "scientificName": "Theraphosa apophysis",
+            "description": ""
+        },
+        {
+            "name": "Goljatlintuhämähäkki",
+            "scientificName": "Theraphosa blondi",
+            "description": ""
+        },
+        {
+            "name": "Burgundy Goliath Bird Eater",
+            "scientificName": "Theraphosa stirmi",
+            "description": ""
+        },
+        {
+            "name": "Kotiloita",
+            "scientificName": "mm. Archachatina puylaerti, Achatina sp.Togo",
+            "description": ""
+        },
+        {
+            "name": "Tuhatjalkaisia ",
+            "scientificName": "mm. Mardonius parilis, Coromus diaphorus, Spirostreptus sp. Vietnam, Ophistreptus guineensis",
+            "description": ""
+        },
+        {
+            "name": "Hyönteisiä ",
+            "scientificName": "mm. Gromphadorrhina portentos, Diapherodes gigantea, Deroplatys desiccata, Gongylus gongylodes, Porcellionides pruinosus, Platymeris biguttatus",
+            "description": ""
+        }
+    ]
+}

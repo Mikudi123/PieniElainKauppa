@@ -112,33 +112,182 @@
                     <article id="last-element" class="view-article">
                         <div class="text-content">
                             <p class="medium-text">
-                                Hiiri, hamsteri, pupujussi tai ehkä eksoottisempi <a href="matelijatjalinnut.html" style="color: blue;">lemmikkilisko</a>.<br />
-                                Myymälästämme voit löytää juuri sinulle sopivan pienen lemmikin.</p>
+                                Tutustu laajaan valikoimaamme sammakkoeläimiä, matelijoita, lintuja ja muita jännittäviä hyönteisiä.
+                            </p>
                             <br />
                             <p class="small-text">
-                                Alla näkyvästä listasta näet ketkä ovat valmiina muuttamaan uuteen kotiin.</p>
+                                Olitpa kiinnostunut sitten eksoottisista käärmeistä, värikkäistä papukaijoista tai keihtovista hämähäkeistä, 
+                                meiltä löydät monipuolisen valikoiman erilaisille lemmikkieläimille.
+                            </p>
+                            <br />
+                            <p class="small-text">
+                                Alla näkyvästä listasta näet ketkä ovat valmiina muuttamaan uuteen kotiin.
+                            </p>
                         </div>
+                        <!-- Available animals table -->
                         <div class="table-div">
                             <div class="flex-horizontal table-attachments">
-                                <div id="lizards-table-info" class="table-info smallest-text">
-                                    <em id="lizards-table-last-updated"></em>
+                                <div id="available-animals-table-info" class="table-info smallest-text">
+                                    <em id="available-animals-table-last-updated"></em>
                                 </div>
-                                <input type="text" id="lizards-search-input" placeholder="Etsi...">
+                                <!-- <input type="text" id="available-animals-search-input" placeholder="Etsi..."> -->
                             </div>
                             <div class="title-and-table">
                                 <div class="table-header small-text">
-                                    <strong>Lisko</strong>
+                                    <strong>Nimi/Laji</strong>
                                     <strong>Tieteellinen nimi</strong>
+                                    <strong>Kuvaus</strong>
                                 </div>
                                 <div class="table-content">
                                     <table class="table small-text">
-                                        <tbody id="lizards-table-body" class="table-body">
+                                        <tbody id="available-animals-table-body" class="table-body">
                                             <!-- Content fetched with Javascript -->
                                         </tbody>
                                     </table>
                                 </div>
-                                <em class="smallest-text">Tämä lista elää päivittäin. Voit tarvittaessa tarkastaa
-                                    ajantasaisen tilanteen myymälästä.</em>
+                                <em class="smallest-text">Voit tarvittaessa tarkastaa ajantasaisen tilanteen myymälästä.</em>
+                            </div>
+                        </div>
+                        <hr class="separator-line"/>
+                        <div class="text-content">
+                            <p class="medium-text">
+                                Allaolevista listoista näet eläinlajit, joita voimme halutessasi tilata liikkeeseemme.
+                            </p>
+                        </div>
+                        <div class="tables-container">
+                            <!-- Lizards table -->
+                            <div class="table-div">
+                                <p class="large-text">Liskot</p>
+                                <div class="flex-horizontal table-attachments">
+                                    <div id="lizards-table-info" class="table-info smallest-text">
+                                        <em id="lizards-table-last-updated"></em>
+                                    </div>
+                                    <input type="text" id="lizards-search-input" placeholder="Etsi...">
+                                </div>
+                                <div class="title-and-table">
+                                    <div class="table-header small-text">
+                                        <strong>Lisko</strong>
+                                        <strong>Tieteellinen nimi</strong>
+                                        <strong>Kuvaus</strong>
+                                    </div>
+                                    <div class="table-content">
+                                        <table class="table small-text">
+                                            <tbody id="lizards-table-body" class="table-body">
+                                                <!-- Content fetched with Javascript -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <em class="smallest-text">Tämä lista elää päivittäin. Voit tarvittaessa tarkastaa
+                                        ajantasaisen tilanteen myymälästä.</em>
+                                </div>
+                            </div>
+
+                            <!-- Amphibians table -->
+                            <div class="table-div">
+                                <p class="large-text">Sammakkoeläimet</p>
+                                <div class="flex-horizontal table-attachments">
+                                    <div id="amphibians-table-info" class="table-info smallest-text">
+                                        <em id="amphibians-table-last-updated"></em>
+                                    </div>
+                                    <input type="text" id="amphibians-search-input" placeholder="Etsi...">
+                                </div>
+                                <div class="title-and-table">
+                                    <div class="table-header small-text">
+                                        <strong>Sammakkoeläin</strong>
+                                        <strong>Tieteellinen nimi</strong>
+                                        <strong>Kuvaus</strong>
+                                    </div>
+                                    <div class="table-content">
+                                        <table class="table small-text">
+                                            <tbody id="amphibians-table-body" class="table-body">
+                                                <!-- Content fetched with Javascript -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <em class="smallest-text">Tämä lista elää päivittäin. Voit tarvittaessa tarkastaa
+                                        ajantasaisen tilanteen myymälästä.</em>
+                                </div>
+                            </div>
+
+                            <!-- Birds table -->
+                            <div class="table-div">
+                                <p class="large-text">Linnut</p>
+                                <div class="flex-horizontal table-attachments">
+                                    <div id="birds-table-info" class="table-info smallest-text">
+                                        <em id="birds-table-last-updated"></em>
+                                    </div>
+                                    <input type="text" id="birds-search-input" placeholder="Etsi...">
+                                </div>
+                                <div class="title-and-table">
+                                    <div class="table-header small-text">
+                                        <strong>Lintu</strong>
+                                        <strong>Tieteellinen nimi</strong>
+                                        <strong>Kuvaus</strong>
+                                    </div>
+                                    <div class="table-content">
+                                        <table class="table small-text">
+                                            <tbody id="birds-table-body" class="table-body">
+                                                <!-- Content fetched with Javascript -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <em class="smallest-text">Tämä lista elää päivittäin. Voit tarvittaessa tarkastaa
+                                        ajantasaisen tilanteen myymälästä.</em>
+                                </div>
+                            </div>
+
+                            <!-- Snakes table -->
+                            <div class="table-div">
+                                <p class="large-text">Käärmeet</p>
+                                <div class="flex-horizontal table-attachments">
+                                    <div id="snakes-table-info" class="table-info smallest-text">
+                                        <em id="snakes-table-last-updated"></em>
+                                    </div>
+                                    <input type="text" id="snakes-search-input" placeholder="Etsi...">
+                                </div>
+                                <div class="title-and-table">
+                                    <div class="table-header small-text">
+                                        <strong>Käärme</strong>
+                                        <strong>Tieteellinen nimi</strong>
+                                        <strong>Kuvaus</strong>
+                                    </div>
+                                    <div class="table-content">
+                                        <table class="table small-text">
+                                            <tbody id="snakes-table-body" class="table-body">
+                                                <!-- Content fetched with Javascript -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <em class="smallest-text">Tämä lista elää päivittäin. Voit tarvittaessa tarkastaa
+                                        ajantasaisen tilanteen myymälästä.</em>
+                                </div>
+                            </div>
+
+                            <!-- Arthropods table -->
+                            <div class="table-div">
+                                <p class="large-text">Niveljalkaiset, hyönteiset ja vastaavat</p>
+                                <div class="flex-horizontal table-attachments">
+                                    <div id="arthropods-table-info" class="table-info smallest-text">
+                                        <em id="arthropods-table-last-updated"></em>
+                                    </div>
+                                    <input type="text" id="arthropods-search-input" placeholder="Etsi...">
+                                </div>
+                                <div class="title-and-table">
+                                    <div class="table-header small-text">
+                                        <strong>Niveljalkainen/hyönteinen</strong>
+                                        <strong>Tieteellinen nimi</strong>
+                                        <strong>Kuvaus</strong>
+                                    </div>
+                                    <div class="table-content">
+                                        <table class="table small-text">
+                                            <tbody id="arthropods-table-body" class="table-body">
+                                                <!-- Content fetched with Javascript -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <em class="smallest-text">Tämä lista elää päivittäin. Voit tarvittaessa tarkastaa
+                                        ajantasaisen tilanteen myymälästä.</em>
+                                </div>
                             </div>
                         </div>
                     </article>

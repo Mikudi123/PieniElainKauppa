@@ -58,6 +58,13 @@ em {
     line-height: .5;
 }
 
+.separator-line {
+    width: 90%;
+    margin: 40px auto 40px auto;
+    border: 3px solid #d4d4d4;
+    border-radius: 5px;
+}
+
 .scroll-element {
     overflow-x: hidden;
     overflow-y: auto;
@@ -249,7 +256,7 @@ em {
 .text-content {
     width: 70%;
     margin: auto;
-    padding: 2rem 0 0 0;
+    padding: 4rem 0 2rem 0;
     text-align: center;
     line-height: 1.5;
     color: var(--black-basic-color);
@@ -301,6 +308,12 @@ em {
 }
 
 /* Table stuff */
+.tables-container {}
+
+.tables-container .table-div:nth-child(1) {
+    /* margin-top: 0 !important; */
+}
+
 .table-div {
     color: black;
     display: flex;
@@ -310,15 +323,14 @@ em {
     width: clamp(100px, 90%, 900px);
     margin: auto;
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin: 40px auto 80px auto;
 }
 
 .table-attachments {
     position: relative;
 }
 
-.table-attachments>* {
+.table-attachments > * {
     width: 100%;
 }
 

@@ -1,0 +1,90 @@
+{
+    "lastUpdated": "5.1.2024",
+    "amphibianList": [
+        {
+            "name": "Kiinankellosammakko",
+            "scientificName": "Bombina orientalis",
+            "description": ""
+        },
+        {
+            "name": "Agakonna",
+            "scientificName": "Bufo marinus",
+            "description": ""
+        },
+        {
+            "name": "Banaanisammakko",
+            "scientificName": "Polypedates leucomystax",
+            "description": ""
+        },
+        {
+            "name": "Chaconsarvisammakko",
+            "scientificName": "Ceratophrys cranwelli",
+            "description": ""
+        },
+        {
+            "name": "Korallisormisammakko",
+            "scientificName": "Litoria caerulea",
+            "description": ""
+        },
+        {
+            "name": "Puhvelisammakko",
+            "scientificName": "Kaloula pulchra",
+            "description": ""
+        },
+        {
+            "name": "Tunnelisammakko",
+            "scientificName": "Pyxicephalus adspersus",
+            "description": ""
+        },
+        {
+            "name": "Valkohuulilehtisammakko",
+            "scientificName": "Litoria infrafrenata",
+            "description": ""
+        },
+        {
+            "name": "Asian Black Spined Toad",
+            "scientificName": "Bufo melanostictus",
+            "description": ""
+        },
+        {
+            "name": "Budgett's Frog",
+            "scientificName": "Lepidobatrachus laevis",
+            "description": ""
+        },
+        {
+            "name": "Cuban Tree Frog",
+            "scientificName": "Osteopilus septentrionalis",
+            "description": ""
+        },
+        {
+            "name": "Desert Tree Frog",
+            "scientificName": "Litoria rubella",
+            "description": ""
+        },
+        {
+            "name": "Flower Pot Toad",
+            "scientificName": "Kaloula baleata",
+            "description": ""
+        },
+        {
+            "name": "Japanese Common Toad",
+            "scientificName": "Bufo japonicus",
+            "description": ""
+        },
+        {
+            "name": "Konna, B. Brongersmai",
+            "scientificName": "Bufo brongersmai",
+            "description": ""
+        },
+        {
+            "name": "Smooth-sided Toad",
+            "scientificName": "Rhaebo guttatus",
+            "description": ""
+        },
+        {
+            "name": "Starry Night Reed Frog",
+            "scientificName": "Heterixalus alboguttatus",
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,430 @@
+{
+    "lastUpdated": "5.1.2024",
+    "fishList": [
+        {
+            "name": "Hehkutetra",
+            "scientificName": "Hyphessobrycon amandae",
+            "description": ""
+        },
+        {
+            "name": "Helmirihmakala",
+            "scientificName": "Trichopodus leerii",
+            "description": ""
+        },
+        {
+            "name": "Hohtomiljoonakala",
+            "scientificName": "Poecilia wingei",
+            "description": ""
+        },
+        {
+            "name": "Hunajarihmakala",
+            "scientificName": "Trichogaster chuna",
+            "description": ""
+        },
+        {
+            "name": "Huulirihmakala",
+            "scientificName": "Trichogaster labiosa",
+            "description": ""
+        },
+        {
+            "name": "Intiaanisulka",
+            "scientificName": "Pristella maxillaris",
+            "description": ""
+        },
+        {
+            "name": "Juovavaanija",
+            "scientificName": "Aplocheilus lineatus",
+            "description": ""
+        },
+        {
+            "name": "Kääpiörasbora",
+            "scientificName": "Boraras maculatus",
+            "description": ""
+        },
+        {
+            "name": "Kääpiörihmakala",
+            "scientificName": "Trichogaster lalius",
+            "description": ""
+        },
+        {
+            "name": "Kardinaalitetra",
+            "scientificName": "Paracheirodon axelrodi",
+            "description": ""
+        },
+        {
+            "name": "Keisaritetra",
+            "scientificName": "Nematobrycon palmeri",
+            "description": ""
+        },
+        {
+            "name": "Keltabarbi",
+            "scientificName": "Barbodes semifasciolatus",
+            "description": ""
+        },
+        {
+            "name": "Kerritetra",
+            "scientificName": "Inpaichthys kerri",
+            "description": ""
+        },
+        {
+            "name": "Kiilakylki",
+            "scientificName": "Trigonostigma heteromorpha",
+            "description": ""
+        },
+        {
+            "name": "Kirsikkabarbi",
+            "scientificName": "Puntius titteya",
+            "description": ""
+        },
+        {
+            "name": "Kongontetra",
+            "scientificName": "Phenacogrammus interruptus",
+            "description": ""
+        },
+        {
+            "name": "Korurihmakala",
+            "scientificName": "Trichopsis pumila",
+            "description": ""
+        },
+        {
+            "name": "Kultakala",
+            "scientificName": "Carassius auratus",
+            "description": ""
+        },
+        {
+            "name": "Kultapyrstösateenkaarikala",
+            "scientificName": "Melanotaenia boesemani",
+            "description": ""
+        },
+        {
+            "name": "Kuparitetra",
+            "scientificName": "Hasemania nana",
+            "description": ""
+        },
+        {
+            "name": "Kuusiraitabarbi",
+            "scientificName": "Desmopuntius hexazona",
+            "description": ""
+        },
+        {
+            "name": "Lehtikala",
+            "scientificName": "Pterophyllum scalare",
+            "description": ""
+        },
+        {
+            "name": "Liekkisuu",
+            "scientificName": "Thorichthys elliot",
+            "description": ""
+        },
+        {
+            "name": "Lipputetra",
+            "scientificName": "Hyphessobrycon anistsi",
+            "description": ""
+        },
+        {
+            "name": "Loistobarbi",
+            "scientificName": "Pethia conchonius",
+            "description": ""
+        },
+        {
+            "name": "Loistokääpiöahven",
+            "scientificName": "Apistogramma agassizii",
+            "description": ""
+        },
+        {
+            "name": "Miekkapyrstö",
+            "scientificName": "Xiphophorus hellerii",
+            "description": ""
+        },
+        {
+            "name": "Miljoonakala",
+            "scientificName": "Poecilia reticulata",
+            "description": ""
+        },
+        {
+            "name": "Molli",
+            "scientificName": "Poecilia sphenops",
+            "description": ""
+        },
+        {
+            "name": "Mustaneontetra",
+            "scientificName": "Hyphessobrycon herbertaxelrodi",
+            "description": ""
+        },
+        {
+            "name": "Mustatetra",
+            "scientificName": "Gymnocorymbus ternetzi",
+            "description": ""
+        },
+        {
+            "name": "Neonsateenkaarikala",
+            "scientificName": "Melanotaenia praecox",
+            "description": ""
+        },
+        {
+            "name": "Neontetra",
+            "scientificName": "Paracheirodon innesi",
+            "description": ""
+        },
+        {
+            "name": "Palettikala",
+            "scientificName": "Pelvicachromis pulcher",
+            "description": ""
+        },
+        {
+            "name": "Perhoskirjoahven",
+            "scientificName": "Mikrogeophagus ramirezi",
+            "description": ""
+        },
+        {
+            "name": "Pikkulasimonni",
+            "scientificName": "Kryptopterus vitreolus",
+            "description": ""
+        },
+        {
+            "name": "Platy",
+            "scientificName": "Xiphophorus maculatus",
+            "description": ""
+        },
+        {
+            "name": "Puna-aavetetra",
+            "scientificName": "Hyphessobrycon sweglesi",
+            "description": ""
+        },
+        {
+            "name": "Punapääbarbi",
+            "scientificName": "Pethia nigrofasciata",
+            "description": ""
+        },
+        {
+            "name": "Punasilmätetra",
+            "scientificName": "Moenkhausia sanctaefilomenae",
+            "description": ""
+        },
+        {
+            "name": "Punasuutetra",
+            "scientificName": "Hemigrammus rhodostomus",
+            "description": ""
+        },
+        {
+            "name": "Punatimanttiahven",
+            "scientificName": "Hemichromis sp.",
+            "description": ""
+        },
+        {
+            "name": "Rihmabarbi",
+            "scientificName": "Dawkinsia filamentosa",
+            "description": ""
+        },
+        {
+            "name": "Rubiinibarbi",
+            "scientificName": "Pethia padamya",
+            "description": ""
+        },
+        {
+            "name": "Ruusutetra",
+            "scientificName": "Hyphessobrycon rosaceus",
+            "description": ""
+        },
+        {
+            "name": "Safiiritetra",
+            "scientificName": "Hyphessobrycon columbianus",
+            "description": ""
+        },
+        {
+            "name": "Sinikirjoahven",
+            "scientificName": "Andinoacara pulcher",
+            "description": ""
+        },
+        {
+            "name": "Sinineontetra",
+            "scientificName": "Paracheirodon simulans",
+            "description": ""
+        },
+        {
+            "name": "Sinirihmakala",
+            "scientificName": "Trichopodus trichopterus",
+            "description": ""
+        },
+        {
+            "name": "Sinitetra",
+            "scientificName": "Boehlkea fredcochui",
+            "description": ""
+        },
+        {
+            "name": "Sitruunatetra, oranssi",
+            "scientificName": "Hyphessobrycon pulchripinnis",
+            "description": ""
+        },
+        {
+            "name": "Taistelukala ♀",
+            "scientificName": "Betta splendens",
+            "description": ""
+        },
+        {
+            "name": "Taistelukala ♂",
+            "scientificName": "Betta splendens",
+            "description": ""
+        },
+        {
+            "name": "Tiikeribarbi",
+            "scientificName": "Puntigrus tetrazona",
+            "description": ""
+        },
+        {
+            "name": "Tiikeribarbi, albiino",
+            "scientificName": "Puntigrus tetrazona",
+            "description": ""
+        },
+        {
+            "name": "Timanttitetra",
+            "scientificName": "Moenkhausia pittieri",
+            "description": ""
+        },
+        {
+            "name": "Tulievä",
+            "scientificName": "Epalzeorhynchos frenatum",
+            "description": ""
+        },
+        {
+            "name": "Albiinomonninen 'sp. Aeneus'",
+            "scientificName": "Corydoras aeneus",
+            "description": ""
+        },
+        {
+            "name": "Korumonninen",
+            "scientificName": "Corydoras elegans",
+            "description": ""
+        },
+        {
+            "name": "Kuparimonninen",
+            "scientificName": "Corydoras aeneus",
+            "description": ""
+        },
+        {
+            "name": "Pandamonninen",
+            "scientificName": "Corydoras panda",
+            "description": ""
+        },
+        {
+            "name": "Täplämonninen",
+            "scientificName": "Corydoras paleatus",
+            "description": ""
+        },
+        {
+            "name": "Isopurjepleko",
+            "scientificName": "Pterygoplichthys gibbiceps",
+            "description": ""
+        },
+        {
+            "name": "Juovaperhosnuoliainen",
+            "scientificName": "Sewellia lineolata",
+            "description": ""
+        },
+        {
+            "name": "Kääpiöpuupleko",
+            "scientificName": "Panaqolus maccus",
+            "description": ""
+        },
+        {
+            "name": "Kaksoisnuolimonni",
+            "scientificName": "Otocinclus macrospilus",
+            "description": ""
+        },
+        {
+            "name": "Kyhmybanjomonni",
+            "scientificName": "Brunocephalus coracoideus",
+            "description": ""
+        },
+        {
+            "name": "Leväbarbi",
+            "scientificName": "Crossocheilus langei",
+            "description": ""
+        },
+        {
+            "name": "Levänuoliainen",
+            "scientificName": "Gyrinocheilus aymonieri",
+            "description": ""
+        },
+        {
+            "name": "Partaimumonni",
+            "scientificName": "Ancistrus sp.",
+            "description": ""
+        },
+        {
+            "name": "Partaimumonni, albiino",
+            "scientificName": "Ancistrus sp.",
+            "description": ""
+        },
+        {
+            "name": "Partaimumonni, punainen",
+            "scientificName": "Ancistrus sp.",
+            "description": ""
+        },
+        {
+            "name": "Punainen noitamonni",
+            "scientificName": "Rineloricaria sp. red",
+            "description": ""
+        },
+        {
+            "name": "Raitanuoliainen",
+            "scientificName": "Botia striata",
+            "description": ""
+        },
+        {
+            "name": "Raitanuolimonni",
+            "scientificName": "Otocinclus affinis",
+            "description": ""
+        },
+        {
+            "name": "Rengasimunuoliainen",
+            "scientificName": "Gastromyzon ocellatus",
+            "description": ""
+        },
+        {
+            "name": "Armeijakypäräkotilo",
+            "scientificName": "Vittina pulligera (N. pulligera)",
+            "description": ""
+        },
+        {
+            "name": "Merkkileväkotilo",
+            "scientificName": "Vittina semiconica",
+            "description": ""
+        },
+        {
+            "name": "Petokotilo",
+            "scientificName": "Anentome helena",
+            "description": ""
+        },
+        {
+            "name": "Seepraleväkotilo",
+            "scientificName": "Vittina natalensis (N. natelensis)",
+            "description": ""
+        },
+        {
+            "name": "Seeprasarvikotilo",
+            "scientificName": "Clithon sp.",
+            "description": ""
+        },
+        {
+            "name": "Tiikerileväkotilo",
+            "scientificName": "Vittina coromandeliana",
+            "description": ""
+        },
+        {
+            "name": "Velhokotilo",
+            "scientificName": "Filopaludina martensi",
+            "description": ""
+        },
+        {
+            "name": "Kirsikkasukarapu",
+            "scientificName": "Neocaridina davidi",
+            "description": ""
+        },
+        {
+            "name": "Leväsukarapu",
+            "scientificName": "Caridina multidentata",
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "lastUpdated": "5.1.2024",
+    "snakeList": [
+        {
+            "name": "Viljakäärme",
+            "scientificName": "Pantherophis guttata",
+            "description": ""
+        },
+        {
+            "name": "Baird's rat snake",
+            "scientificName": "Scotophis bairdi",
+            "description": ""
+        },
+        {
+            "name": "Great Plains Rat Snake",
+            "scientificName": "Pantherophis emory",
+            "description": ""
+        },
+        {
+            "name": "Javanese Keelback Water snake",
+            "scientificName": "Xenochrophis melanzostus",
+            "description": ""
+        },
+        {
+            "name": "Mexican kingsnake",
+            "scientificName": "Lampropeltis leonis",
+            "description": ""
+        },
+        {
+            "name": "Mexican kingsnake",
+            "scientificName": "Lampropeltis mexicana greeri",
+            "description": ""
+        },
+        {
+            "name": "Pacific Gophersnake",
+            "scientificName": "Pituophis catenifer catenifer",
+            "description": ""
+        },
+        {
+            "name": "Pueblan milk snake",
+            "scientificName": "Lampropeltis t. campbelli",
+            "description": ""
+        },
+        {
+            "name": "Sinaloan Milk Snake",
+            "scientificName": "Lampropeltis t. sinaloae",
+            "description": ""
+        },
+        {
+            "name": "Striped Keelback",
+            "scientificName": "Xenochrophis vittatus",
+            "description": ""
+        },
+        {
+            "name": "Western hognosesnake",
+            "scientificName": "Heterodon nasicus",
+            "description": ""
+        }
+    ]
+}
