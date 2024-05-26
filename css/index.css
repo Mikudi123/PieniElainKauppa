@@ -162,7 +162,8 @@ em {
 
 .cards-container {
     color: var(--black-basic-color);
-    width: 80% !important;
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
