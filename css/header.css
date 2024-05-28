@@ -33,7 +33,7 @@
 #sidebar {
     position: relative;
     width: 17%;
-    min-width: 150px;
+    min-width: 80px;
     max-width: 400px;
 
     background-color: var(--white-basic-color);
@@ -198,6 +198,7 @@
     height: 50%;
 }
 
+/* Social media buttons etc. floaters */
 .social-media-container {
     position: relative;
     display: flex;
@@ -212,12 +213,12 @@
     position: relative;
     padding: 7px;
     margin-left: 5%;
-    height: calc(20px + .8vw);
-    width: calc(20px + .8vw);
-
+    height: calc(1vw + 1vh);
+    aspect-ratio: 1;
     border-radius: 100%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
     cursor: pointer;
+    overflow: hidden;
 }
 
 #contact-whatsapp-span {
@@ -233,10 +234,11 @@
 }
 
 #contact-facebook-span img {
+    transition: all .1s linear;
     animation: none;
 }
 
-#contact-facebook-span a {
+.social-media-icon a {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -244,23 +246,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 120%;
-    aspect-ratio: 1;
-}
-
-/* #contact-email-span img {
-    animation: none;
-} */
-
-#contact-email-span a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
     aspect-ratio: 1;
 }
 
@@ -269,15 +254,14 @@
     width: 100%;
 }
 
+#contact-whatsapp-span a {
+    height: 70%;
+}
+
+#contact-facebook-span a {
+    height: 120%;
+}
+
 #contact-email-span a {
-    height: 65% !important;
-}
-
-.social-media-icon:hover img {
-    animation: rotate-wiggle .4s ease;
-    animation-delay: .2s;
-}
-
-.social-media-icon:hover {
-    transform: scale(1.1);
+    height: 65%;
 }
