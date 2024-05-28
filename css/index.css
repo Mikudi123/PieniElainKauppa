@@ -77,9 +77,9 @@ em {
 }
 
 .separator-line {
-    width: 95%;
+    width: 90%;
     margin: 40px auto 40px auto;
-    border: 3px solid #d4d4d4;
+    border: 2px solid #d4d4d4;
     border-radius: 5px;
 }
 
@@ -206,7 +206,7 @@ em {
     position: relative;
     background-color: transparent;
     border-radius: 20px;
-    width: clamp(150px, 20%, 350px);
+    width: clamp(150px, 25%, 350px);
     aspect-ratio: 1.2;
     cursor: pointer;
     overflow: hidden;
