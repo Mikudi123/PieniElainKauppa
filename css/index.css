@@ -72,10 +72,6 @@ a {
     color: var(--black-basic-color);
 }
 
-em {
-    line-height: .5;
-}
-
 .separator-line {
     width: 90%;
     margin: 40px auto 40px auto;
