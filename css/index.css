@@ -348,6 +348,27 @@ em {
     margin: 20px 0 0 15px;
     align-self: flex-start;
     color: var(--black-basic-color);
+    width: 30%;
+}
+
+#product-categories{
+    display: flex;
+    margin: auto;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.product-category{
+    margin: 10px;
+    text-wrap: nowrap;
+}
+
+.product-category > h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
 
 .title-and-table {
@@ -405,4 +426,11 @@ em {
 tr:nth-child(even) {
     background-color: #f4f4f4;
     color: var(--green-basic-color);
+}
+
+.products-div{
+    color: var(--black-basic-color);
+    width: 70%;
+    margin: auto;
+    padding: 4rem 0 2rem 0;
 }
