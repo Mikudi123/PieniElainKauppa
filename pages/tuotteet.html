@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pienen eläinkaupan kotisivut">
+    <meta name="keywords" content="Eläinkauppa Kuopio, Eläintarvikkeet Kuopio">
+    <meta name="author" content="Mikko Kärki">
+
+    <title>Pieni Eläinkauppa</title>
+    <link rel="stylesheet" href="../css/imports.css?v=1.0">
+    <link rel="stylesheet" href="../css/index.css?v=1.0">
+    <link rel="stylesheet" href="../css/header.css?v=1.0">
+</head>
+
+<body>
+    <main class="flex-vertical main-container">
+        <div id="content-besides-footer" class="flex-horizontal">
+            <div id="sidebar" class="scroll-element">
+                <div id="sidebar-container">
+                    <a class="logo sidebar-item" href="../index.html">
+                        <img alt="Logo" src="../media/images/pieni_elainkauppa.webp">
+                    </a>
+                    <div class="sidebar-item nav">
+                        <nav id="sidebar-nav" class="small-text">
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="../index.html">
+                                    <strong>Etusivu</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="kalat.html">
+                                    <strong>Kalat</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="pienelaimet.html">
+                                    <strong>Pieneläimet</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="matelijatjalinnut.html">
+                                    <strong>Matelijat ja linnut</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div" active>
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="tuotteet.html">
+                                    <strong>Tuotteet</strong>
+                                </a>
+                            </div>
+                            <div class="sidebar-link-div">
+                                <div class="sidebar-link-hover-div"></div>
+                                <a href="palvelut.html">
+                                    <strong>Hoitoa ja palveluja</strong>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="social-media-container sidebar-item">
+                        <span id="contact-email-span" class="social-media-icon" title="Lähetä viesti sähköpostitse">
+                            <a aria-label="Send email" href="mailto: pienielainkauppa@pienielainkauppa.fi">
+                                <img alt="Email" src="../media/icons/envelope.svg">
+                            </a>
+                        </span>
+                        <span id="contact-facebook-span" class="social-media-icon" title="Facebook">
+                            <a aria-label="Check our facebook"
+                                href="https://www.facebook.com/Pienielainkauppa/?ref=embed_page" target="_blank">
+                                <img alt="Facebook" src="../media/icons/facebook.svg">
+                            </a>
+                        </span>
+                        <span id="contact-whatsapp-span" class="social-media-icon"
+                            title="Lähetä viesti WhatsAppin kautta">
+                            <a aria-label="Send email" href="https://wa.me/358443592222" target="_blank">
+                                <img alt="Send email" src="../media/icons/whatsapp.svg">
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="content-container">
+                <header id="header">
+                    <a id="header-logo" class="logo-div" href="index.html">
+                        <img alt="Logo" src="../media/images/pieni_elainkauppa.webp">
+                    </a>
+                    <button id="sidebar-toggle-btn" class="list-button" onclick="toggleSidebar()">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button>
+                </header>
+                <div id="content-below-header" class="container-vertical scroll-element pos-relative">
+                    <div class="background-img-top">
+                        <img src="../media/images/tuotteet-banner.jpg" />
+                        <div class="text-content">
+                            <h1 class="view-title">Tuotteet</h1>
+                        </div>
+                    </div>
+                    <article id="last-element" class="view-article">
+                        <div class="text-content">
+                            <p class="medium-text">Meiltä löydät laajan valikoiman tuotteita koirille ja kissoille,
+                                terraarioeläimille ja akvaariohin, sekä linnuille.</p><br />
+                            <p class="small-text">
+                                Eikö valikoimastamme löydy sinun suosikkiasi? Ehdota rohkeasti sähköpostiin
+                                pienielainkauppa (a/t) pienielainkauppa.fi. <br /> Ihan jokaista toivetta emme ehkä
+                                pysty täyttämään, mutta kaikkia ehdotuksia lupaamme harkita huolella. <br /> Saat toki
+                                vinkata hyvistä tuotteista myös myymälässämme käydessäsi.
+                            </p>
+                            <hr class="separator-line" style="width: 90%; margin-top: 30px;">
+                        </div>
+                        <div class="products-div small-text">
+                            <div id="product-categories">
+                                <div class="product-category">
+                                    <h5><a href="#koiratjakissat">Koirat ja kissat</a></h5>
+                                </div>
+                                <div class="product-category">
+                                    <h5><a href="#lisaravinteet">Lisäravinteet</a></h5>
+                                </div>
+                                <div class="product-category">
+                                    <h5><a href="#tarvikkeet">Tarvikkeet</a></h5>
+                                </div>
+                                <div class="product-category">
+                                    <h5><a href="#pienelaimetjalinnut">Pieneläimet ja linnut</a></h5>
+                                </div>
+                                <div class="product-category">
+                                    <h5><a href="#terraariojaakvaario">Terraarioeläimet ja akvaariot</a></h5>
+                                </div>
+                                <div class="product-category">
+                                    <h5><a href="#kuivikkeetjahiekat">Kuivikkeet ja hiekat</a></h5>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <h3 id="koiratjakissat">Korkealaatuisia ruokia koirille ja kissoille:</h3>
+                                <ul>
+                                    <li>Acana www.acana.com</li>
+                                    <li>Eukanuba www.eukanuba.fi/</li>
+                                    <li>Cibau, Zaaron, N&D, Cimiao www.bestpremiums.fi</li>
+                                    <li>Royal Canin www.royalcanin.fi</li>
+                                    <li>Arion</li>
+                                    <li>NeuFrau https://www.neufrau.fi/</li>
+                                    <li>Pala www.palapets.com</li>
+                                    <li>Platinum</li>
+                                    <li>Purbello</li>
+                                    <li>Naturis Fresh</li>
+                                    <li>Animonda</li>
+                                    <li>Applaws</li>
+                                    <li>Bozita</li>
+                                    <li>Feline Porta</li>
+                                    <li>Kattovit</li>
+                                    <li>Life Natural</li>
+                                    <li>Miamor</li>
+                                    <li>Monster</li>
+                                    <li>Rinti</li>
+                                </ul>
+                                <h3 id="lisaravinteet">Huolellisesti valittuja lisäravinteita hyvinvoinnin tueksi:</h3>
+                                <ul>
+                                    <li>Effektri</li>
+                                    <li>Nutrolin</li>
+                                    <li>Biofarm</li>
+                                </ul>
+                                <h3 id="tarvikkeet">Tarpeellisia tarvikkeita arkipäiviin ja harrastuksiin:</h3>
+                                <ul>
+                                    <li>Janutex janutex.com</li>
+                                    <li>Pomppa</li>
+                                    <li>Finnero</li>
+                                    <li>Nahkanasta</li>
+                                    <li>Ebba & Albus</li>
+                                    <li>Non-Stop</li>
+                                    <li>Trixie</li>
+                                    <li>Dogman</li>
+                                </ul>
+                                <h3 id="pienelaimetjalinnut">Ruokaa ja herkkuja pieneläimille ja linnuille:</h3>
+                                <ul>
+                                    <li>Altromin www.feedcon.fi</li>
+                                    <li>Genesis www.albapets.fi</li>
+                                    <li>Bunny www.valens.fi</li>
+                                    <li>Versele-Laga</li>
+                                    <li>JR-Farm</li>
+                                    <li>Hoikan Herkku www.hoikanherkku.fi</li>
+                                    <li>Kotimainen heinä</li>
+                                </ul>
+                                <h3 id="terraariojaakvaario">Monipuolinen ruoka ja tarvikevalikoima terraarioeläimille ja akvaariohin:</h3>
+                                <ul>
+                                    <li>Ruokahyönteiset</li>
+                                    <li>Pakastetut ruokaeläimet</li>
+                                    <li>Pakasteruoat kaloille</li>
+                                    <li>JBL www.jbl.de</li>
+                                    <li>Tetra ja TetraTec www.tetra.net</li>
+                                    <li>Eheim  www.eheim.com</li>
+                                    <li>Tropical</li>
+                                    <li>Exo-Terra www.exo-terra.com</li>
+                                    <li>Juwel www.juwel-aquarium.de</li>
+                                    <li>Zoomed</li>
+                                    <li>Komodo</li>
+                                    <li>Fluval</li>
+                                    <li>Easy Life</li>
+                                </ul>
+                                <h3 id="kuivikkeetjahiekat">Kuivikkeet ja hiekat:</h3>
+                                <ul>
+                                    <li>Ever Clean www.everclean.com</li>
+                                    <li>Monster</li>
+                                    <li>Extreme Classic</li>
+                                    <li>Odour Buster</li>
+                                    <li>LindoCat ja LindoRod  www.bestpremiums.fi</li>
+                                    <li>Ökö Plus</li>
+                                    <li>Universal ja Osku</li>
+                                    <li>Mörtti Röpö</li>
+                                    <li>Toa-Lätt/Majjsan paperipelletti</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="contact-info" class="small-text">
+                <span>Pieni Eläinkauppa</span>&nbsp|&nbsp
+                <span>Pallokatu 3, 70620 Kuopio</span>&nbsp|&nbsp
+                <span>Puh. 044 359 2222</span>&nbsp|&nbsp
+                <span>pienielainkauppa(at)pienielainkauppa.fi</span>&nbsp|&nbsp
+                <span>Y-2517859-3</span>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="../javascript/index.js"></script>
+<script src="../javascript/header.js"></script>
+<script src="../javascript/kalat.js"></script>
+
+</html>
