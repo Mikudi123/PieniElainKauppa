@@ -1,7 +1,8 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     #info-maps-container {
         flex-direction: column !important;
         align-items: center;
+        text-align: center !important;
     }
 
     #info-maps-container > * {
@@ -30,7 +31,8 @@
 }
 
 #maps-div {
-    width: 50vw;
+    width: 40vw;
+    min-width: 180px;
     aspect-ratio: 2/1;
 }
 
