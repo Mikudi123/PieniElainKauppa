@@ -8,10 +8,11 @@
     <meta name="keywords" content="Eläinkauppa Kuopio, Eläintarvikkeet Kuopio">
     <meta name="author" content="Mikko Kärki">
 
-    <title>Pieni Eläinkauppa - Kalat</title>
+    <title>Pieni Eläinkauppa - Yhteystiedot</title>
     <link rel="stylesheet" href="../css/imports.css?v=1.0">
     <link rel="stylesheet" href="../css/index.css?v=1.0">
     <link rel="stylesheet" href="../css/header.css?v=1.0">
+    <link rel="stylesheet" href="../css/maps.css?v=1.0">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <div id="content-besides-footer" class="flex-horizontal">
             <div id="sidebar" class="scroll-element">
                 <div id="sidebar-container">
-                    <a class="logo sidebar-item" href="../index.html">
+                    <a class="logo sidebar-item" href="index.html">
                         <img alt="Logo" src="../media/images/pieni_elainkauppa.webp">
                     </a>
                     <div class="sidebar-item nav">
@@ -30,7 +31,7 @@
                                     <strong>Etusivu</strong>
                                 </a>
                             </div>
-                            <div class="sidebar-link-div" active>
+                            <div class="sidebar-link-div">
                                 <div class="sidebar-link-hover-div"></div>
                                 <a href="kalat.html">
                                     <strong>Kalat</strong>
@@ -66,7 +67,7 @@
                                     <strong>Hoitoa ja palveluja</strong>
                                 </a>
                             </div>
-                            <div class="sidebar-link-div">
+                            <div class="sidebar-link-div" active>
                                 <div class="sidebar-link-hover-div"></div>
                                 <a href="yhteystiedot.html">
                                     <strong>Yhteystiedot</strong>
@@ -110,44 +111,23 @@
                 </header>
                 <div id="content-below-header" class="container-vertical scroll-element pos-relative">
                     <div class="background-img-top">
-                        <img src="../media/images/blue-devils-clownfish.webp" />
+                        <img src="../media/images/dogs-bg.webp" />
                         <div class="text-content">
-                            <h1 class="view-title">Kalat</h1>
+                            <h1 class="view-title">Yhteystiedot</h1>
                         </div>
                     </div>
+                    <span id="past-top-image-trigger"></span>
                     <article id="last-element" class="view-article">
-                        <div class="text-content spacing">
-                            <p class="medium-text">Myymälässämme on laaja valikoima erilaisia akvaariokaloja.</p><br />
-                            <p class="small-text">
-                                Uusia kaloja altaisiimme tulee noin kolme kertaa kuussa.<br />
-                                Erikoisempia lajeja ja suurempia parvia voi tilata kalatoimitustemme
-                                yhteyteen suoraan kuormasta noudettavaksi.<br />
-                                Kysy lisää myymälästämme!
+                        <div id="info-maps-container" class="small-text spacing">
+                            <p>
+                                Sijaitsemme Kuopion Haapaniemellä osoitteessa Pallokatu 3, liikkeemme löytyy nopsakulman takaa.
                             </p>
-                        </div>
-                        <div class="table-div">
-                            <div class="flex-horizontal table-attachments">
-                                <div id="table-info" class="table-info smallest-text">
-                                    <em id="table-last-updated"></em>
-                                </div>
-                                <input type="text" id="searchInput" placeholder="Etsi...">
+                            <div id="maps-div">
+                                <iframe id="maps-frame"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1818.5744453148952!2d27.670790977543817!3d62.883334421650154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4684b08c16021e0b%3A0x2f7b186aff9288a6!2sSmall%20Pet%20Shop!5e0!3m2!1sen!2sfi!4v1716991088814!5m2!1sen!2sfi"
+                                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
                             </div>
-                            <div>
-                                <div class="table-header small-text">
-                                    <strong>Kala</strong>
-                                    <strong>Tieteellinen nimi</strong>
-                                    <strong>Kuvaus</strong>
-                                </div>
-                                <div class="table-content">
-                                    <table class="table small-text">
-                                        <tbody id="table-body" class="table-body">
-                                            <!-- Content fetched with Javascript -->
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <em class="smallest-text">Tämä lista elää päivittäin. Voit tarvittaessa tarkastaa
-                                ajantasaisen tilanteen myymälästä.</em>
                         </div>
                     </article>
                 </div>
@@ -167,6 +147,5 @@
 
 <script src="../javascript/index.js"></script>
 <script src="../javascript/header.js"></script>
-<script src="../javascript/kalat.js"></script>
 
 </html>
