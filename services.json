@@ -1,0 +1,36 @@
+{
+    "serviceList": [
+        {
+            "name": "Trimmauspalvelu Topi ja Tessu, Trimmi-Tiimi",
+            "descriptionItems": [
+                "Trimmauspalvelut ja Emmi-Pet hammashoidot",
+                "Ajanvaraus numerosta 017 281 1152",
+                "Lisätietoja löydät verkkosivuilta <a href='https://www.topijatessu.com/' target='_blank'>www.topijatessu.com</a>"
+            ]
+        },
+        {
+            "name": "Koirahieronta CanisCare",
+            "descriptionItems": [
+                "Ajanvaraus numerosta 040-555 3718"
+            ]
+        },
+        {
+            "name": "Napraxia - Naprapatiahoidot koirille",
+            "descriptionItems": [
+                "Toimijana Jonna-Marika Eskelinen",
+                "Ajanvaraus numerosta 044-239 3975",
+                "Lisätietoja löydät verkkosivuilta <a href='https://www.napraxia.fi/hevoset-koirat/' target='_blank'>www.napraxia.fi</a>"
+            ]
+        },
+        {
+            "name": "Pieni Eläinkauppa - Saat myös meiltä apua lemmikkien hoidossa",
+            "descriptionItems": [
+                "Kanin/marsun kynsien leikkaus",
+                "Lemmikin lomahoito (kissoja ja koiria pienemmät kaverit)",
+                "Kotiinkuljetus; Kuljetamme ruoka- ja hiekkasäkit ja muut ostokset kotiin sopimuksen mukaan",
+                "Hoitoapua myös asiakkaan kotiin mm. Akvaarionhoito taikka lemmikin ulkoilutus tai ruokinta",
+                "Lisätiedot ja ajanvaraukset myymälästä puh. 044 359 2222"
+            ]
+        }
+    ]
+}

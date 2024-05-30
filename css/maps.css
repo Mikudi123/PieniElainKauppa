@@ -6,7 +6,7 @@
     }
 
     #info-maps-container > * {
-        padding: .5rem 0 .5rem 0 !important;
+        margin: 10px 0 10px 0 !important;
     }
 
     #maps-div {
@@ -27,18 +27,21 @@
 }
 
 #info-maps-container > * {
-    padding: 0 .5rem 0 .5rem;
+    margin: 0 10px 0 10px;
 }
 
 #maps-div {
     width: 40vw;
     min-width: 180px;
     aspect-ratio: 2/1;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5) !important;
+    margin-top: 8px !important;
 }
 
 #maps-frame {
     width: 100%;
     height: 100%;
     border: none;
-    border-radius: 1rem;
+    border-radius: 15px;
 }
