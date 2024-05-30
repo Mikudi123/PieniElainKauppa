@@ -4,7 +4,7 @@ const headerLogo = document.getElementById("header-logo");
 const headerToggleButton = document.getElementById("sidebar-toggle-btn");
 const header = document.getElementById("header");
 const contentBelowHeader = document.getElementById("content-below-header");
-const pastTopImageTrigger = document.getElementById("past-top-image-trigger");
+const listBtnTrigger = document.getElementById("list-btn-class-trigger");
 const viewLastElement = document.getElementById("last-element");
 
 // Check if element contains specific classname
@@ -55,7 +55,17 @@ const toggleSidebar = () => {
         } else {
             removeElementInlineStyling(sidebar);
         }
-        toggleElementClass(headerToggleButton, "dark");
+        
+        if (!header.classList.contains("header-extended")) {
+            headerToggleButton.classList.add("dark");
+        } else {
+            const topImageNotVisible = ElementIsInViewport(listBtnTrigger);
+            if (topImageNotVisible) {
+                headerToggleButton.classList.add("dark");
+            } else {
+                headerToggleButton.classList.remove("dark");
+            }
+        }
         toggleElementClass(sidebar, "sidebar-shrink");
 
         if (headerLogo) {
@@ -78,18 +88,16 @@ const setContentContainerMarginLeft = () => {
     contentContainer.style.marginLeft = sidebar.classList.contains("sidebar-shrink") ? "0" : `-${shrunkSidebarWidth}`;
 };
 
-// Eventlisteners
-contentContainer.addEventListener("scroll", () => {
-    if (sidebar.classList.contains("sidebar-shrink")) {
-        return;
-    }
-
+// Event listener for scroll
+contentBelowHeader.addEventListener("scroll", () => {
     // The top background image is not visible anymore => turn the hamburger button dark
-    const topImageNotVisible = ElementIsInViewport(pastTopImageTrigger);
-    if (topImageNotVisible) {
-        headerToggleButton.classList.add("dark");
-    } else {
-        headerToggleButton.classList.remove("dark");
+    if (!header.classList.contains("header-extended")) {
+        const topImageNotVisible = ElementIsInViewport(listBtnTrigger);
+        if (topImageNotVisible) {
+            headerToggleButton.classList.add("dark");
+        } else {
+            headerToggleButton.classList.remove("dark");
+        }
     }
 }, {
     passive: true
