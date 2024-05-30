@@ -362,6 +362,7 @@ a {
 
 .table-attachments {
     position: relative;
+    justify-content: space-between;
 }
 
 .table-attachments>* {
@@ -371,7 +372,7 @@ a {
 .table-attachments input {
     outline: none;
     text-decoration: none;
-    width: 60%;
+    width: 40%;
     margin: 0 10px 0 0;
     border: 2px solid #dddddd;
     border-radius: 5px;
@@ -436,11 +437,10 @@ a {
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
     border-radius: 15px 15px 0 0;
     background-color: var(--green-basic-color);
-    z-index: 1;
 }
 
 .table-header>* {
