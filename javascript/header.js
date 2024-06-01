@@ -6,6 +6,9 @@ const header = document.getElementById("header");
 const contentBelowHeader = document.getElementById("content-below-header");
 const listBtnTrigger = document.getElementById("list-btn-class-trigger");
 const viewLastElement = document.getElementById("last-element");
+const contentBgFilter = document.getElementById("content-filter");
+
+const LOW_RES = 1050; // The same as in header.js mediaquery
 
 // Check if element contains specific classname
 const elementContainsClassname = (element, className) => {
@@ -41,20 +44,22 @@ const removeElementInlineStyling = (element) => {
 const ElementIsInViewport = (element) => {
     const rect = element.getBoundingClientRect();
     return rect.bottom <= 0 || rect.top >= (window.innerHeight || document.documentElement.clientHeight)
-}
+};
 
-// User interactions
+// Toggle the header/sidebar.
 const toggleSidebar = () => {
     if (sidebar) {
-        setContentContainerMarginLeft();
+        if (window.innerWidth >= LOW_RES) {
+            // setContentContainerMarginLeft();
+        }
         setMarginsWhenHeaderVisible();
 
         const sidebarIsShrunk = elementContainsClassname(sidebar, "sidebar-shrink");
-        if (!sidebarIsShrunk) {
-            setElementStaticWidth(sidebar);
-        } else {
-            removeElementInlineStyling(sidebar);
-        }
+        // if (!sidebarIsShrunk) {
+        //     // setElementStaticWidth(sidebar);
+        // } else {
+        //     removeElementInlineStyling(sidebar);
+        // }
         
         if (!header.classList.contains("header-extended")) {
             headerToggleButton.classList.add("dark");
@@ -66,6 +71,13 @@ const toggleSidebar = () => {
                 headerToggleButton.classList.remove("dark");
             }
         }
+
+        if (window.innerWidth < LOW_RES && sidebarIsShrunk) {
+            contentBgFilter.classList.add("content-filter-visible");
+        } else {
+            contentBgFilter.classList.remove("content-filter-visible");
+        }
+
         toggleElementClass(sidebar, "sidebar-shrink");
 
         if (headerLogo) {
@@ -79,8 +91,7 @@ const toggleSidebar = () => {
 
 const setMarginsWhenHeaderVisible = () => {
     const headerHeight = header.offsetHeight;
-    contentBelowHeader.style.marginTop = !sidebar.classList.contains("sidebar-shrink") ? "0px" : `-${headerHeight}px`;
-    viewLastElement.style.paddingBottom = sidebar.classList.contains("sidebar-shrink") ? "0px" : `${headerHeight}px`;
+    contentBelowHeader.style.marginTop = sidebar.classList.contains("sidebar-shrink") ? "0px" : `${headerHeight}px`;
 };
 
 const setContentContainerMarginLeft = () => {
@@ -105,17 +116,31 @@ contentBelowHeader.addEventListener("scroll", () => {
 
 // Event listener for window resize
 window.addEventListener("resize", () => {
+    if (window.innerWidth <= LOW_RES) {
+        sidebar.classList.add("sidebar-low-res");
+        if (!elementContainsClassname(sidebar, "sidebar-shrink")) {
+            contentBgFilter.classList.add("content-filter-visible");
+        }
+    } else {
+        sidebar.classList.remove("sidebar-low-res");
+        if (!elementContainsClassname(sidebar, "sidebar-shrink")) {
+            contentBgFilter.classList.remove("content-filter-visible");
+        }
+    }
+
     const headerHeight = header.offsetHeight;
-    contentBelowHeader.style.marginTop = sidebar.classList.contains("sidebar-shrink") ? "0px" : `-${headerHeight}px`;
+    contentBelowHeader.style.marginTop = !sidebar.classList.contains("sidebar-shrink") ? "0px" : `${headerHeight}px`;
+}, {
+    passive: true
 });
 
 // Initial load
 const initialLoad = () => {
-    if (window.innerWidth <= 800) {
-        toggleSidebar()
+    if (window.innerWidth <= LOW_RES) {
+        sidebar.classList.add("sidebar-low-res");
+        toggleSidebar();
     } else {
-        const headerHeight = header.offsetHeight;
-        contentBelowHeader.style.marginTop = `-${headerHeight}px`;
+        sidebar.classList.remove("sidebar-low-res");
     }
 };
 initialLoad();

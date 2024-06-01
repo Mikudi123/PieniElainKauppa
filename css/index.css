@@ -1,3 +1,11 @@
+@media screen and (max-width: 1050px) {
+    #content-container {
+        position: absolute !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
+
 @keyframes rotate-wiggle {
     0% {
         transform: rotate(0deg);
@@ -128,6 +136,24 @@ ul {
     font-size: calc(0.5rem + .55vw + .55vh) !important;
 }
 
+.flex-vertical {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.flex-horizontal {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 .background-img-top {
     position: relative;
     /* position: sticky;
@@ -141,7 +167,6 @@ ul {
 
     z-index: 1;
 }
-
 
 .background-img-top img {
     position: absolute;
@@ -170,24 +195,6 @@ ul {
     height: 100%;
     width: 100%;
     overflow: hidden;
-}
-
-.flex-vertical {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.flex-horizontal {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
 }
 
 .cards-container {
@@ -281,7 +288,25 @@ ul {
 }
 
 #content-container {
+    position: relative;
     width: 100%;
+    height: 100%;
+}
+
+.content-filter-visible {
+    opacity: 1 !important;
+    z-index: 10 !important;
+}
+
+#content-filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    backdrop-filter: brightness(50%); /* No fallback value but it's fine, all browsers should now support this*/
 }
 
 .text-content {
@@ -306,7 +331,10 @@ ul {
 }
 
 #content-below-header {
-    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
     z-index: 1;
 }
 
