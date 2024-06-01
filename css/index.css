@@ -76,7 +76,8 @@ main {
 
 a {
     text-decoration: none;
-    color: var(--green-basic-color) !important;
+    color: var(--green-basic-color);
+     /* Poistettu !important, koska se overridaa tuotteet.html sivulla olevan värin */
 }
 
 ul {
@@ -425,7 +426,7 @@ ul {
     overflow-y: hidden;
     width: 45vw;
     background-color: var(--green-basic-color);
-    width: 100%;
+    min-width: 100%;
     background: linear-gradient(to left, rgba(11, 87, 33, 0) 0%, var(--green-basic-color) 10%, var(--green-basic-color) 90%, rgba(11, 87, 33, 0) 100%);
 }
 
