@@ -71,6 +71,7 @@
 }
 
 .nav {
+    letter-spacing: .1rem;
     padding: 0 !important;
     flex-basis: 100%;
 }
