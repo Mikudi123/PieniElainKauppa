@@ -96,6 +96,11 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: var(--black-basic-color) !important;
+    hyphens: auto;
+}
+
+.sidebar-link-div a strong {
+    hyphens: inherit;
 }
 
 .sidebar-link-div[active] .sidebar-link-hover-div {
@@ -233,6 +238,22 @@
 
 #contact-whatsapp-span {
     background-color: #00d25c;
+}
+
+#contact-whatsapp-span a img {
+    animation: revert-wiggle .4s ease;
+}
+
+#contact-whatsapp-span:hover a img {
+    animation: rotate-wiggle .4s ease;
+}
+
+#contact-email-span a img {
+    animation: revert-wiggle .4s ease;
+}
+
+#contact-email-span:hover a img {
+    animation: rotate-wiggle .4s ease;
 }
 
 #contact-email-span {

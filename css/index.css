@@ -191,6 +191,7 @@ ul {
     letter-spacing: 2px;
     overflow: hidden;
     text-overflow: ellipsis;
+    /* hyphens: none; */
 }
 
 .main-container {
@@ -239,7 +240,7 @@ ul {
 
 .card:hover .card-navigate-text {
     transform: translateX(0%);
-    margin-left: 20px;
+    margin-left: 8%;
 }
 
 .card:hover .card-title {
@@ -250,6 +251,7 @@ ul {
     text-align: left;
     color: var(--white-basic-color);
     text-overflow: ellipsis;
+    hyphens: none;
 }
 
 .card-title {
@@ -262,7 +264,7 @@ ul {
     font-weight: bold;
     overflow: hidden;
     line-height: 1.2;
-    margin: 0 0 10px 20px;
+    margin: 0 0 5% 8%;
     font-size: calc(10px + .7vw);
     transition: all .2s ease;
 }
