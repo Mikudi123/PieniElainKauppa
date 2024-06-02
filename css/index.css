@@ -37,6 +37,7 @@
 * {
     margin: 0;
     transition: all .3s ease;
+    hyphens: auto;
 }
 
 html {
@@ -77,7 +78,7 @@ main {
 a {
     text-decoration: none;
     color: var(--green-basic-color);
-     /* Poistettu !important, koska se overridaa tuotteet.html sivulla olevan värin */
+    /* Poistettu !important, koska se overridaa tuotteet.html sivulla olevan värin */
 }
 
 ul {
@@ -307,7 +308,8 @@ ul {
     width: 100%;
     z-index: -1;
     opacity: 0;
-    backdrop-filter: brightness(50%); /* No fallback value but it's fine, all browsers should now support this*/
+    backdrop-filter: brightness(50%);
+    /* No fallback value but it's fine, all browsers should now support this*/
 }
 
 .text-content {
@@ -418,46 +420,6 @@ ul {
     width: 30%;
 }
 
-#product-categories-outer {
-    display: flex;
-    margin: auto;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    width: 45vw;
-    background-color: var(--green-basic-color);
-    min-width: 100%;
-    background: linear-gradient(to left, rgba(11, 87, 33, 0) 0%, var(--green-basic-color) 10%, var(--green-basic-color) 90%, rgba(11, 87, 33, 0) 100%);
-}
-
-#product-categories-inner {
-    display: flex;
-    margin: auto;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scrollbar-width: thin;
-    scrollbar-color: #00742c var(--green-basic-color);
-    width: 80%;
-}
-
-.product-category {
-    margin: 15px auto 15px auto;
-    text-wrap: nowrap;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.product-category>h5:hover {
-    text-decoration: underline;
-    cursor: pointer;
-
-}
-
-.product-category>h5>a {
-    color: white;
-}
-
 .table-header-and-content {
     max-width: 100%;
 }
@@ -501,17 +463,63 @@ ul {
     z-index: 0;
 }
 
+.wide-column {
+    width: 90% !important;
+}
+
 .table td {
     border-bottom: 1px solid #dddddd;
     text-align: left;
     padding: 15px;
     overflow: hidden;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
+    width: 50%;
 }
 
-tr:nth-child(even) {
+.table tr:nth-child(even) {
     background-color: #f4f4f4;
     color: var(--green-basic-color);
+}
+
+/* Products stuff */
+#product-categories-outer {
+    display: flex;
+    margin: auto;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 45vw;
+    background-color: var(--green-basic-color);
+    min-width: 100%;
+    background: linear-gradient(to left, rgba(11, 87, 33, 0) 0%, var(--green-basic-color) 10%, var(--green-basic-color) 90%, rgba(11, 87, 33, 0) 100%);
+}
+
+#product-categories-inner {
+    display: flex;
+    margin: auto;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #00742c var(--green-basic-color);
+    width: 80%;
+}
+
+.product-category {
+    margin: 15px auto 15px auto;
+    text-wrap: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.product-category>h5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.product-category>h5>a {
+    color: white;
 }
 
 .products-div {
@@ -542,7 +550,7 @@ tr:nth-child(even) {
     overflow: visible !important;
 }
 
-#services-container > ul {
+#services-container>ul {
     width: 100%;
     padding: 0;
 }

@@ -16,6 +16,7 @@ const fetchFishes = async () => {
                 scientificNameCell.innerHTML = fish.scientificName ? fish.scientificName : "Ei tieteellistä nimeä";
                 const descriptionCell = document.createElement("td");
                 descriptionCell.innerHTML = fish.description ? fish.description : "<em>Ei kuvausta</em>";
+                descriptionCell.classList.add("wide-column");
                 row.appendChild(nameCell);
                 row.appendChild(scientificNameCell);
                 row.appendChild(descriptionCell);
