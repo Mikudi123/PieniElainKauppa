@@ -70,13 +70,14 @@ html {
 
 body {
     background-color: var(--white-basic-color);
-    font: 16px "Roboto Regular";
+    font: 16px/24px "Roboto Regular";
     color: var(--white-basic-color);
 
     height: 100vh;
     height: 100svh;
     min-width: var(--min-width-page);
     overflow: hidden;
+    line-height: 1.5;
 }
 
 main {
