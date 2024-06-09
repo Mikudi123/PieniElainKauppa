@@ -75,7 +75,8 @@
     flex-wrap: nowrap;
     flex-direction: column;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
+    scrollbar-width: thin;
 }
 
 #sidebar-container .logo {
