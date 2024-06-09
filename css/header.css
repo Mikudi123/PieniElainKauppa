@@ -6,8 +6,8 @@
 
     /* For smaller resolutions we set the sidebar to be absolute so it will overlap the views content */
     #sidebar {
-        min-width: 280px !important;
-        max-width: 280px !important;
+        min-width: 260px !important;
+        max-width: 260px !important;
         position: absolute !important;
     }
 
@@ -74,6 +74,8 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 #sidebar-container .logo {
