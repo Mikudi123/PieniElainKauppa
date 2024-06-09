@@ -5,6 +5,10 @@
         margin: 0 !important;
     }
 
+    .text-content {
+        width: 85% !important;
+    }
+
     .smallest-text {
         font-size: .7rem !important;
     }
