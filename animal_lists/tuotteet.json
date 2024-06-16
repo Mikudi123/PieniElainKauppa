@@ -1,0 +1,391 @@
+{
+    "brandList": [
+        {
+            "brandName": "Acana",
+            "website": "https://emea.acana.com/en/homepage",
+            "brandImagePath": "../media/images/koira.webp",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Eukanuba",
+            "website": "https://eukanuba.eu/fi-fi/koira",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Cibau, Zaaron, N&D, Cimiao",
+            "website": "http://www.bestpremiums.fi/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Royal Canin",
+            "website": "https://www.royalcanin.com/fi",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Arion",
+            "website": "https://www.arionpetfood.com/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "NeuFrau",
+            "website": "https://www.neufrau.eu/index.htm",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Pala",
+            "website": "https://palapets.com/fi/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Platinum",
+            "website": "https://www.platinum.com/en/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Purbello",
+            "website": "https://www.petsnature.de/hunde/brands-by-pets-nature/purbello/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Naturis Fresh",
+            "website": "",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Animonda",
+            "website": "https://animonda.de/en/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Applaws",
+            "website": "https://applaws.com/uk/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Bozita",
+            "website": "https://bozita.com/fi/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Feline Porta",
+            "website": "https://portapet.de/en/cat-food/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Kattovit",
+            "website": "https://www.kattovit.com/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Life Natural",
+            "website": "https://www.lifenatural.it/en/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Miamor",
+            "website": "https://www.miamor.de/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Monster",
+            "website": "https://fi.monsterpetfood.com/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Rinti",
+            "website": "https://www.rinti.de/",
+            "brandImagePath": "",
+            "categoryId": 1
+        },
+        {
+            "brandName": "Effektri",
+            "website": "https://www.effektri.com/fi/",
+            "brandImagePath": "",
+            "categoryId": 2
+        },
+        {
+            "brandName": "Nutrolin",
+            "website": "https://www.nutrolin.fi/",
+            "brandImagePath": "",
+            "categoryId": 2
+        },
+        {
+            "brandName": "Biofarm",
+            "website": "https://www.biofarm.fi/",
+            "brandImagePath": "",
+            "categoryId": 2
+        },
+        {
+            "brandName": "Janutex",
+            "website": "https://janutex.com/",
+            "brandImagePath": "",
+            "categoryId": 3
+        },
+        {
+            "brandName": "Pomppa",
+            "website": "https://pomppa.fi/",
+            "brandImagePath": "",
+            "categoryId": 3
+        },
+        {
+            "brandName": "Finnero",
+            "website": "https://www.finnero.fi/",
+            "brandImagePath": "",
+            "categoryId": 3
+        },
+        {
+            "brandName": "Nahkanasta",
+            "website": "https://www.nahkanasta.fi/",
+            "brandImagePath": "",
+            "categoryId": 3
+        },
+        {
+            "brandName": "Ebba & Albus",
+            "website": "https://ebbaalbus.fi/",
+            "brandImagePath": "",
+            "categoryId": 3
+        },
+        {
+            "brandName": "Non-Stop",
+            "website": "https://www.nonstopdogwear.com/fi/",
+            "brandImagePath": "",
+            "categoryId": 3
+        },
+        {
+            "brandName": "Trixie",
+            "website": "https://www.trixie.de/en",
+            "brandImagePath": "",
+            "categoryId": 3
+        },
+        {
+            "brandName": "Dogman",
+            "website": "https://dogman.fi/",
+            "brandImagePath": "",
+            "categoryId": 3
+        },
+        {
+            "brandName": "Altromin",
+            "website": "http://www.feedcon.fi/",
+            "brandImagePath": "",
+            "categoryId": 4
+        },
+        {
+            "brandName": "Genesis",
+            "website": "https://www.albapets.fi/",
+            "brandImagePath": "",
+            "categoryId": 4
+        },
+        {
+            "brandName": "Bunny",
+            "website": "https://www.valens.fi/",
+            "brandImagePath": "",
+            "categoryId": 4
+        },
+        {
+            "brandName": "Versele-Laga",
+            "website": "https://www.versele-laga.com/en/gb",
+            "brandImagePath": "",
+            "categoryId": 4
+        },
+        {
+            "brandName": "JR-Farm",
+            "website": "https://www.jr-farm.de/",
+            "brandImagePath": "",
+            "categoryId": 4
+        },
+        {
+            "brandName": "Hoikan Herkku",
+            "website": "https://www.hoikanherkku.fi/",
+            "brandImagePath": "",
+            "categoryId": 4
+        },
+        {
+            "brandName": "Kotimainen heinä",
+            "brandImagePath": "",
+            "website": "",
+            "categoryId": 4
+        },
+        {
+            "brandName": "Ruokahyönteiset",
+            "brandImagePath": "",
+            "website": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Pakastetut ruokaeläimet",
+            "brandImagePath": "",
+            "website": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Pakasteruoat kaloille",
+            "brandImagePath": "",
+            "website": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "JBL",
+            "website": "https://www.jbl.de/",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Tetra & TetraTec",
+            "website": "https://www.tetra.net/en-gb",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Eheim",
+            "website": "https://eheim.com/en_GB/",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Tropical",
+            "website": "",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Exo-Terra",
+            "website": "https://exo-terra.com/",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Juwel",
+            "website": "https://www.juwel-aquarium.de/en",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Zoomed",
+            "website": "https://zoomed.com/",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Komodo",
+            "website": "https://www.komodoproducts.com/",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Fluval",
+            "website": "https://fluvalaquatics.com/uk/",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Easy Life",
+            "website": "https://www.easylife.eu/",
+            "brandImagePath": "",
+            "categoryId": 5
+        },
+        {
+            "brandName": "Ever Clean",
+            "website": "https://www.everclean.fi/",
+            "brandImagePath": "",
+            "categoryId": 6
+        },
+        {
+            "brandName": "Monster",
+            "website": "https://www.monstercatlitter.com/",
+            "brandImagePath": "",
+            "categoryId": 6
+        },
+        {
+            "brandName": "Extreme Classic",
+            "website": "https://www.intersand.com/en/",
+            "brandImagePath": "",
+            "categoryId": 6
+        },
+        {
+            "brandName": "Odour Buster",
+            "website": "https://odourbuster.pet/",
+            "brandImagePath": "",
+            "categoryId": 6
+        },
+        {
+            "brandName": "LindoCat & LindoRod",
+            "website": "http://www.bestpremiums.fi/",
+            "brandImagePath": "",
+            "categoryId": 6
+        },
+        {
+            "brandName": "Cat's best",
+            "website": "https://www.catsbest.eu/",
+            "brandImagePath": "",
+            "categoryId": 6
+        },
+        {
+            "brandName": "Osku",
+            "website": "https://oskutuote.fi/",
+            "brandImagePath": "",
+            "categoryId": 6
+        },
+        {
+            "brandName": "Mörtti Röpö",
+            "website": "https://www.morttiropo.com/fi",
+            "brandImagePath": "",
+            "categoryId": 6
+        },
+        {
+            "brandName": "Toa-Lätt",
+            "website": "https://www.sorption.se/",
+            "brandImagePath": "",
+            "categoryId": 6
+        }
+    ],
+
+    "categories": [
+        {
+            "categoryId": 1,
+            "categoryName": "Koirat ja kissat",
+            "categoryDescription": "Korkealaatuisia ruokia koirille ja kissoille"
+        },
+        {
+            "categoryId": 2,
+            "categoryName": "Lisäravinteet",
+            "categoryDescription": "Huolellisesti valittuja lisäravinteita hyvinvoinnin tueksi"
+        },
+        {
+            "categoryId": 3,
+            "categoryName": "Tarvikkeet",
+            "categoryDescription": "Tarpeellisia tarvikkeita arkipäiviin ja harrastuksiin"
+        },
+        {
+            "categoryId": 4,
+            "categoryName": "Pieneläimet ja linnut",
+            "categoryDescription": "Ruokaa ja herkkuja pieneläimille ja linnuille"
+        },
+        {
+            "categoryId": 5,
+            "categoryName": "Terraarioeläimet ja akvaariot",
+            "categoryDescription": "Monipuolinen ruoka ja tarvikevalikoima terraarioeläimille ja akvaariohin"
+        },
+        {
+            "categoryId": 6,
+            "categoryName": "Kuivikkeet ja hiekat",
+            "categoryDescription": ""
+        }
+    ]
+}
