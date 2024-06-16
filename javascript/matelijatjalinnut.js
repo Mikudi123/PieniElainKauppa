@@ -15,6 +15,7 @@ const fetchAvailableAnimals = async () => {
                 scientificNameCell.innerHTML = animal.scientificName ? animal.scientificName : "<em>Ei tieteellistä nimeä...</em>";
                 const descriptionCell = document.createElement("td");
                 descriptionCell.innerHTML = animal.description ? animal.description : "<em>Ei kuvausta</em>";
+                descriptionCell.classList.add("wide-column");
                 row.appendChild(nameCell);
                 row.appendChild(scientificNameCell);
                 row.appendChild(descriptionCell);
@@ -41,6 +42,7 @@ const fetchLizards = async () => {
                 scientificNameCell.innerHTML = lizard.scientificName ? lizard.scientificName : "<em>Ei tieteellistä nimeä...</em>";
                 const descriptionCell = document.createElement("td");
                 descriptionCell.innerHTML = lizard.description ? lizard.description : "<em>Ei kuvausta</em>";
+                descriptionCell.classList.add("wide-column");
                 row.appendChild(nameCell);
                 row.appendChild(scientificNameCell);
                 row.appendChild(descriptionCell);
@@ -67,6 +69,7 @@ const fetchBirds = async () => {
                 scientificNameCell.innerHTML = bird.scientificName ? bird.scientificName : "<em>Ei tieteellistä nimeä...</em>";
                 const descriptionCell = document.createElement("td");
                 descriptionCell.innerHTML = bird.description ? bird.description : "<em>Ei kuvausta</em>";
+                descriptionCell.classList.add("wide-column");
                 row.appendChild(nameCell);
                 row.appendChild(scientificNameCell);
                 row.appendChild(descriptionCell);
@@ -93,6 +96,7 @@ const fetchAmphibians = async () => {
                 scientificNameCell.innerHTML = amphibian.scientificName ? amphibian.scientificName : "<em>Ei tieteellistä nimeä...</em>";
                 const descriptionCell = document.createElement("td");
                 descriptionCell.innerHTML = amphibian.description ? amphibian.description : "<em>Ei kuvausta</em>";
+                descriptionCell.classList.add("wide-column");
                 row.appendChild(nameCell);
                 row.appendChild(scientificNameCell);
                 row.appendChild(descriptionCell);
@@ -119,6 +123,7 @@ const fetchSnakes = async () => {
                 scientificNameCell.innerHTML = snake.scientificName ? snake.scientificName : "<em>Ei tieteellistä nimeä...</em>";
                 const descriptionCell = document.createElement("td");
                 descriptionCell.innerHTML = snake.description ? snake.description : "<em>Ei kuvausta</em>";
+                descriptionCell.classList.add("wide-column");
                 row.appendChild(nameCell);
                 row.appendChild(scientificNameCell);
                 row.appendChild(descriptionCell);
@@ -145,6 +150,7 @@ const fetchArthropods = async () => {
                 scientificNameCell.innerHTML = arthropod.scientificName ? arthropod.scientificName : "<em>Ei tieteellistä nimeä...</em>";
                 const descriptionCell = document.createElement("td");
                 descriptionCell.innerHTML = arthropod.description ? arthropod.description : "<em>Ei kuvausta</em>";
+                descriptionCell.classList.add("wide-column");
                 row.appendChild(nameCell);
                 row.appendChild(scientificNameCell);
                 row.appendChild(descriptionCell);

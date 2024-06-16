@@ -13,6 +13,7 @@ const fetchSmallAnimals = async () => {
                 nameCell.innerHTML = animal.name ? animal.name : "<em>Ei nimeä...</em>";
                 const descriptionCell = document.createElement("td");
                 descriptionCell.innerHTML = animal.description ? animal.description : "<em>Ei kuvausta</em>";
+                descriptionCell.classList.add("wide-column");
                 row.appendChild(nameCell);
                 row.appendChild(descriptionCell);
                 tableBody.appendChild(row);

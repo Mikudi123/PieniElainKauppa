@@ -57,6 +57,7 @@
 * {
     margin: 0;
     transition: all .3s ease;
+    hyphens: auto;
 }
 
 html {
@@ -97,7 +98,7 @@ main {
 a {
     text-decoration: none;
     color: var(--green-basic-color);
-     /* Poistettu !important, koska se overridaa tuotteet.html sivulla olevan värin */
+    /* Poistettu !important, koska se overridaa tuotteet.html sivulla olevan värin */
 }
 
 ul {
@@ -210,6 +211,7 @@ ul {
     letter-spacing: 2px;
     overflow: hidden;
     text-overflow: ellipsis;
+    /* hyphens: none; */
 }
 
 .main-container {
@@ -258,7 +260,7 @@ ul {
 
 .card:hover .card-navigate-text {
     transform: translateX(0%);
-    margin-left: 20px;
+    margin-left: 8%;
 }
 
 .card:hover .card-title {
@@ -269,6 +271,7 @@ ul {
     text-align: left;
     color: var(--white-basic-color);
     text-overflow: ellipsis;
+    hyphens: none;
 }
 
 .card-title {
@@ -281,7 +284,7 @@ ul {
     font-weight: bold;
     overflow: hidden;
     line-height: 1.2;
-    margin: 0 0 10px 20px;
+    margin: 0 0 5% 8%;
     font-size: calc(10px + .7vw);
     transition: all .2s ease;
 }
@@ -327,7 +330,8 @@ ul {
     width: 100%;
     z-index: -1;
     opacity: 0;
-    backdrop-filter: brightness(50%); /* No fallback value but it's fine, all browsers should now support this*/
+    backdrop-filter: brightness(50%);
+    /* No fallback value but it's fine, all browsers should now support this*/
 }
 
 .text-content {
@@ -481,15 +485,20 @@ ul {
     z-index: 0;
 }
 
+.wide-column {
+    width: 90% !important;
+}
+
 .table td {
     border-bottom: 1px solid #dddddd;
     text-align: left;
     padding: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
+    width: 50%;
 }
 
-tr:nth-child(even) {
+.table tr:nth-child(even) {
     background-color: #f4f4f4;
     color: var(--green-basic-color);
 }
@@ -548,7 +557,7 @@ tr:nth-child(even) {
     overflow: visible !important;
 }
 
-#services-container > ul {
+#services-container>ul {
     width: 100%;
     padding: 0;
 }

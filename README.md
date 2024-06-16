@@ -1,7 +1,9 @@
 # PieniElainKauppa
-Pieneneläinkaupan kotisivut
+Pieneneläinkaupan kotisivut.
+Sivusto toimii myös kotisivupohjana sekä samalla näytteenä kehittäjien osaamisesta.
 
-Issues:
--  Yläpalkin kuvan polku ei toimi Pages-julkaisussa. Paikallisesti toimii.
--  Headerin margin-top säädetään javascriptillä. Marginin asettaminen ei aina toimi kun sivun resoluutiota skaalataan sivusuunnassa ja jättää muutaman pikselin kokoisen "raon" headerin yläpuolelle.
+**Issues:**
+-  Headerin margin-top säädetään javascriptillä. Marginin asettaminen ei aina toimi kun sivun resoluutiota skaalataan sivusuunnassa ja jättää muutaman pikselin kokoisen "raon".
 -  Header "overlappaa" sivun sisällön; Headerin alla oleva sisältö ei ole klikattavissa.
+
+Copyright (c) 2024 Mikko Kärki & Janne Peltoniemi. All rights reserved.
