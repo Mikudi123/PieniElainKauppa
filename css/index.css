@@ -516,6 +516,25 @@ ul {
     gap: 10px;
 }
 
+.brand-cards-container-hidden {
+    display: none;
+}
+
+.category-title-container{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.category-title {
+    padding-right: 10px;
+}
+
+.category-title-container:hover .expand-collapse-category{
+    cursor: pointer;
+}
+
 .product-info:hover {
     /* border-color: #0b5721; */
     transform: translate3d(0, -5px, 0);
@@ -530,6 +549,7 @@ ul {
     border-radius: 5px;
     transition: all .15s ease;
     aspect-ratio: 1/1;
+    box-shadow: 0 5px 9px -6px black;
 }
 
 .product-info {
