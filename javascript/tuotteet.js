@@ -61,10 +61,17 @@ const fetchProducts = async () => {
                         let categoryName = "categoryId-" + kategoria.categoryId;
                         card.classList.add(categoryName);
 
+                        var productTitle = document.createElement("div");
+                        productTitle.className = "product-title";
+                        var title = document.createElement("h2");
+                        title.innerText = merkki.brandName;
+
                         var productInfo = document.createElement("div");
                         productInfo.classList.add("product-info");
-                        var brandName = document.createElement("h3");
-                        brandName.innerText = merkki.brandName;
+                        var productTextContainer = document.createElement("div");
+                        productTextContainer.className = "product-text-container"
+                        var productInfoText = document.createElement("p");
+                        productInfoText.innerText = "Tänne tekstiä tuotemerkistä ja mitä tuotteita kaupalla myynnissä";
 
                         var productWebsite = document.createElement("div");
                         productWebsite.className = "product-website";
@@ -73,9 +80,13 @@ const fetchProducts = async () => {
                         link.target = "_blank";
                         link.textContent = "valmistajan sivulle"
 
-                        productInfo.appendChild(brandName);
+                        productTitle.appendChild(title);
+
+                        productTextContainer.appendChild(productInfoText);
+                        productInfo.appendChild(productTextContainer);
                         productWebsite.appendChild(link);
 
+                        card.append(productTitle);
                         card.append(productInfo);
                         card.append(productWebsite);
 
@@ -108,10 +119,17 @@ const fetchProducts = async () => {
                                         let categoryName = "categoryId-" + kategoria.categoryId;
                                         card.classList.add(categoryName);
 
+                                        var productTitle = document.createElement("div");
+                                        productTitle.className = "product-title";
+                                        var title = document.createElement("h2");
+                                        title.innerText = merkki.brandName;
+
                                         var productInfo = document.createElement("div");
                                         productInfo.classList.add("product-info");
-                                        var brandName = document.createElement("h3");
-                                        brandName.innerText = merkki.brandName;
+                                        var productTextContainer = document.createElement("div");
+                                        productTextContainer.className = "product-text-container"
+                                        var productInfoText = document.createElement("p");
+                                        productInfoText.innerText = "Tänne tekstiä tuotemerkistä ja mitä tuotteita kaupalla myynnissä";
 
                                         var productWebsite = document.createElement("div");
                                         productWebsite.className = "product-website";
@@ -120,9 +138,13 @@ const fetchProducts = async () => {
                                         link.target = "_blank";
                                         link.textContent = "valmistajan sivulle"
 
-                                        productInfo.appendChild(brandName);
+                                        productTitle.appendChild(title);
+
+                                        productTextContainer.appendChild(productInfoText);
+                                        productInfo.appendChild(productTextContainer);
                                         productWebsite.appendChild(link);
 
+                                        card.append(productTitle);
                                         card.append(productInfo);
                                         card.append(productWebsite);
 
