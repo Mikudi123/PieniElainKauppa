@@ -1,6 +1,5 @@
-# PieniElainKauppa
-Pieneneläinkaupan kotisivut.
-Sivusto toimii myös kotisivupohjana sekä samalla näytteenä kehittäjien osaamisesta.
+# Kotisivupohja
+Harjoittelu ja TODO Kotisivupohja pohjautuen pienen eläinkaupan tietoihin.
 
 **Issues:**
 -  Headerin margin-top säädetään javascriptillä. Marginin asettaminen ei aina toimi kun sivun resoluutiota skaalataan sivusuunnassa ja jättää muutaman pikselin kokoisen "raon".
